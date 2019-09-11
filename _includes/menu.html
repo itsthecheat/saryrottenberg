@@ -1,28 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Sary Rottenberg Psychotherapy</a>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" role="navigation">
+  <div class="d-flex flex-nowrap w-auto">
+  <a class="navbar-brand" href="{% link index.html %}">Sary Rottenberg Psychotherapy</a>
   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+  </div>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">Services</a>
+        <a class="nav-link" href="{% link _pages/services.html %}">Services</a>
       </li>
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Who We Are
+          Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Individual</a>
+          <a class="dropdown-item" href="#">Couples</a>
+          <a class="dropdown-item" href="#">Family</a>
+          <a class="dropdown-item" href="#">Group</a>
         </div>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="{% link _pages/about.html %}">Who We Are</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="{% link _pages/contact.html %}">Contact</a>
       </li>
-
     </ul>
   </div>
 </nav>
-<div class="container-fluid">
