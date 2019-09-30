@@ -28,11 +28,11 @@ plugins:
 sass:
   style: compressed
   load_paths:
-    -_sass
-    -node_modules
+    - _sass
+    - node_modules
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude: []
+exclude: ["Rakefile"]
 livereload: true
