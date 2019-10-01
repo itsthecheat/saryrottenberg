@@ -22,9 +22,6 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 include: [_pages, node_modules]
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 sass:
   style: compressed
   load_paths:
@@ -34,5 +31,11 @@ sass:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-exclude: ["vendor"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 livereload: true
