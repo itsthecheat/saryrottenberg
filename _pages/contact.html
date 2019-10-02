@@ -6,7 +6,58 @@ permalink: /contact/
   <div class="row-fluid">
     <div class="col-sm-12">
 
-      {% include form.html %}
+      <!-- Extended material form grid -->
+      <form >
+      <!-- Grid row -->
+      <div class="form-row">
+        <!-- Grid column -->
+        <div class="col-md-6 col-sm-12">
+          <div class="md-form form-group">
+            <input type="text" class="form-control" id="name" placeholder="Name">
+            <label for="name">Name</label>
+          </div>
+        </div>
+        <!-- Grid column -->
+        <div class="col-md-6 col-sm-12">
+          <div class="md-form form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email">
+            <label for="email">Email</label>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-12 col-sm-12">
+          <div class="md-form form-group">
+            <select class="browser-default custom-select">
+              <option selected>Who would you like to contact</option>
+              <option value="1">Sary Rottenberg</option>
+              <option value="2">Kate</option>
+              <option value="3">Alana</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid row -->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-12 col-sm-12">
+        <div class="form-group">
+        <label for="message">Message (optional)</label>
+        <textarea class="form-control rounded-0" id="message" rows="5"></textarea>
+      </div>
+        </div>
+      </div>
+
+
+
+      <button type="submit" class="btn btn-primary btn-dark">Submit</button>
+      </form>
+      <!-- Extended material form grid -->
+
 
     </div>
   </div>
