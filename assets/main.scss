@@ -1,9 +1,6 @@
 ---
 ---
 @import "_variables";
-@import "@material/card/mdc-card";
-@import "@material/typography/mdc-typography";
-@import "@material/button/mdc-button";
 
 * {
   margin: 0;
@@ -99,14 +96,28 @@ padding-bottom: 50px
   min-width: 350px;
   min-height: 350px;
 }
-.card-title {
-  padding: 1.25rem 0 1px 1.25rem;
+.my-card-title {
+  margin: 1.25rem 0 1px 1.25rem;
+  color: white;
+  font-family: $font-overlay;
+  width:125px;
+  text-align: center;
+  background-color: rgba(1,1,1,.5)
+}
+.mdc-button::before, .mdc-button::after {
+  background-color: rgb(242, 181, 145);
+}
+.mdc-button:not(:disabled) {
+  color: black;
 }
 .kate {
   background-image: url("/assets/img/kate.jpeg");
 }
 .alana {
   background-image: url("/assets/img/alana.jpeg");
+}
+.gwenn {
+  background-image: url("/assets/img/gwenn.jpg");
 }
 .team {
   padding-left: 0;

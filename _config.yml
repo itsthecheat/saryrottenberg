@@ -32,5 +32,5 @@ sass:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-  [Gemfile, Gemfile.lock, vendor/bundle/, vendor/cache/, vendor/gems, vendor/ruby/]
+  [node_modules, Gemfile, Gemfile.lock, vendor/bundle/, vendor/cache/, vendor/gems, vendor/ruby/]
 livereload: true
