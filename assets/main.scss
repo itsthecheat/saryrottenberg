@@ -89,12 +89,29 @@ padding-bottom: 50px
 #contact {
   height: 640px;
 }
-
+.section {
+  margin: 0 auto;
+}
+.info {
+  text-align: justify;
+}
+.page-header {
+  font-family: $font-header;
+  text-transform: uppercase;
+  padding: 50px;
+}
 // Begin About Page Styles
 .mdc-card {
   margin: 5px;
   min-width: 350px;
   min-height: 350px;
+}
+.media-link {
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }
 .my-card-title {
   margin: 1.25rem 0 1px 1.25rem;

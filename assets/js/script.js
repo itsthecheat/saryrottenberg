@@ -13,5 +13,10 @@ const MDCRipple = mdc.ripple.MDCRipple;
 const MDCRippleFoundation = mdc.ripple.MDCRippleFoundation;
 const util = mdc.ripple.util;
 
-const surface = document.querySelector('.my-ripple');
-const ripple = new MDCRipple(surface);
+(document.querySelectorAll('.my-ripple')).forEach((el) => mdc.ripple.MDCRipple.attachTo(el));
+(document.querySelectorAll('button')).forEach((el) =>
+mdc.ripple.MDCRipple.attachTo(el));
+
+// new MDCRipple.attachTo(document.querySelector('.my-ripple-button'));
+// const surface = document.querySelector('.my-ripple');
+// const ripple = new MDCRipple(surface);
