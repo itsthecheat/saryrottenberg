@@ -14,7 +14,7 @@ body {
   height: 100%;
 }
 .full-width-container {
-  max-width: 100%;
+  max-width: 90%;
 }
 .header {
   padding-top: 100px;
@@ -66,12 +66,16 @@ body {
   background: rgba(5, 5 ,5, 0.5);
   z-index: 1;
 }
-.fa-arrow-alt-circle-down {
+.hero-arrow {
   bottom: 5%;
   left: 50%;
   position: absolute;
   color: white;
   z-index: 100;
+}
+.treat-arrow {
+  color: rgb(242, 181, 145);
+  padding-top: 10px;
 }
 .hero-text, a {
   text-align: center;
@@ -83,8 +87,8 @@ body {
             text-decoration: none;}
 }
 #treatment, #contact, #form {
-padding-top: 150px;
-padding-bottom: 50px
+padding-top: 100px;
+padding-bottom: 40px;
 }
 #contact {
   height: 640px;
@@ -96,9 +100,10 @@ padding-bottom: 50px
   text-align: justify;
 }
 .page-header {
-  font-family: $font-header;
-  text-transform: uppercase;
-  padding: 50px;
+  font-family: $font-overlay;
+  // text-transform: uppercase;
+  padding: 25px;
+  text-align: center;
 }
 // Begin About Page Styles
 .mdc-card {
