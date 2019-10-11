@@ -100,7 +100,7 @@ padding-bottom: 40px;
   text-align: justify;
 }
 .page-header {
-  font-family: $font-overlay;
+  font-family: $font-header;
   // text-transform: uppercase;
   padding: 25px;
   text-align: center;
@@ -121,7 +121,7 @@ padding-bottom: 40px;
 .my-card-title {
   margin: 1.25rem 0 1px 1.25rem;
   color: white;
-  font-family: $font-overlay;
+  font-family: $font-body;
   width:130px;
   text-align: center;
   background-color: black;
@@ -129,11 +129,9 @@ padding-bottom: 40px;
 }
 .mdc-button::before, .mdc-button::after {
   background-color: black;
-
 }
 .mdc-button:not(:disabled) {
   color: black;
-
 }
 .hpot {
   display: none;
@@ -141,6 +139,10 @@ padding-bottom: 40px;
 .mdc-button {
   font-family: $font-body;
   border-radius: 10px 100px / 120px;
+}
+.caption-btn {
+  padding-top: 10px;
+  padding-left: 0;
 
 }
 .kate {
