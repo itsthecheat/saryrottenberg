@@ -7,20 +7,24 @@ permalink: /contact/
     <div class="col-sm-12">
 
       <!-- Extended material form grid -->
-      <form >
+      <form method="POST" action="https://formspree.io/llaurenb@gmail.com">
+        <!-- honeypot -->
+  <div class="hpot">
+    <label>Leave this field empty: <input name="_gotcha"></label>
+  </div>
       <!-- Grid row -->
       <div class="form-row">
         <!-- Grid column -->
         <div class="col-md-6 col-sm-12">
           <div class="md-form form-group">
-            <input type="text" class="form-control" id="name" placeholder="Name">
+            <input type="text" class="form-control" id="name" placeholder="Name" name="name">
             <label for="name">Name</label>
           </div>
         </div>
         <!-- Grid column -->
         <div class="col-md-6 col-sm-12">
           <div class="md-form form-group">
-            <input type="email" class="form-control" id="email" placeholder="Email">
+            <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto">
             <label for="email">Email</label>
           </div>
         </div>
@@ -47,7 +51,7 @@ permalink: /contact/
         <div class="col-md-12 col-sm-12">
         <div class="form-group">
         <label for="message">Message (optional)</label>
-        <textarea class="form-control rounded-0" id="message" rows="5"></textarea>
+        <textarea name="message" class="form-control rounded-0" id="message" rows="5"></textarea>
       </div>
         </div>
       </div>

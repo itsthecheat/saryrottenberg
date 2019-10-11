@@ -1,6 +1,5 @@
 ---
 ---
-@charset "utf-8";
 @import "_variables";
 
 * {
@@ -123,15 +122,26 @@ padding-bottom: 40px;
   margin: 1.25rem 0 1px 1.25rem;
   color: white;
   font-family: $font-overlay;
-  width:125px;
+  width:130px;
   text-align: center;
-  background-color: rgba(1,1,1,.5)
+  background-color: black;
+  border-radius: 10px 100px / 120px;
 }
 .mdc-button::before, .mdc-button::after {
-  background-color: rgb(242, 181, 145);
+  background-color: black;
+
 }
 .mdc-button:not(:disabled) {
   color: black;
+
+}
+.hpot {
+  display: none;
+}
+.mdc-button {
+  font-family: $font-body;
+  border-radius: 10px 100px / 120px;
+
 }
 .kate {
   background-image: url("/assets/img/kate.jpeg");
@@ -141,6 +151,9 @@ padding-bottom: 40px;
 }
 .gwenn {
   background-image: url("/assets/img/gwenn.jpg");
+}
+.sary {
+  background-image: url("/assets/img/sary.jpg")
 }
 .team {
   padding-left: 0;
