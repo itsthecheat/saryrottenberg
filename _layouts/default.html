@@ -1,10 +1,34 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 <body>
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="">
+    <meta name="description" content="Sary Rottenberg Psychotherapy provides therapy to individuals and couples in New York City and surrounding areas. We specialize in and treat relationships, career changes, trauma, depression, anxiety as well as issues affecting the LGBTQ community.">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Service",
+      "@type": "BreadcrumbList",
+        "itemListElement": [{
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Books",
+          "item": "https://example.com/books"
+        },{
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Authors",
+          "item": "https://example.com/books/authors"
+        },{
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ann Leckie",
+          "item": "https://example.com/books/authors/annleckie"
+        }]
+
+}
+    </script>
     <title>{{site.title}}</title>
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -15,7 +39,7 @@
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.10/css/mdb.min.css" rel="stylesheet">
         <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-
+  </head>
   <!-- begin site wrapper -->
 <div class="wrapper">
 {% include menu.html %}

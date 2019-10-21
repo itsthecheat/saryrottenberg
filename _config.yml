@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Sary Rottenberg Psychotherapy
+title: Sary Rottenberg Psychotherapy - New York City based therapy for individuals and couples
 email: saryrottenbergmhc@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Psychotherapy practive located in New York City, specializing in trauma, LGBTQ, couples, relationships, career changes.
-baseurl: http://itsthecheat.github.io/saryrottenberg # the subpath of your site, e.g. /blog
+  Psychotherapy practive located in New York City, specializing in trauma, LGBTQ+, couples, relationships, career changes.
+baseurl: / # the subpath of your site, e.g. /blog
 url: "https://itsthecheat.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 include: [_pages]
