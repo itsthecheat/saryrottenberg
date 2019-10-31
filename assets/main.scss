@@ -9,9 +9,18 @@
 
 html,
 body {
-  font-family: $font-body;
+  font-family: $font-body2;
+  font-weight: bold;
   width: 100%;
   height: 100%;
+  background-color: rgba(204, 212, 217, 85);
+}
+.container {
+  padding-bottom: 2.5rem;
+}
+.wrapper {
+  position: relative;
+  min-height: 100vh;
 }
 .full-width-container {
   max-width: 100%;
@@ -28,32 +37,34 @@ body {
 }
 .page-header {
   font-family: $font-header;
-  // text-transform: uppercase;
   padding: 25px;
   text-align: center;
 }
-.arrow-down {
-  color: rgb(242, 181, 145);
-  padding-top: 25px;
+.page-header-2 {
+  padding: 10px 10px 10px 0;
+  font-family: $font-body2;
+  font-weight: bold;
 }
 
 /*  ------------------------------ Begin Navigation Bar-------------------------------*/
 .navbar-brand {
   white-space: normal;
+  transition: 0.3s;
 }
 .navbar-light .navbar-brand {
-  color: rgb(242, 181, 145);
+  color: rgb(115, 38, 38);
   font-family: $font-header;
   text-transform: uppercase;
   font-size: 30px;
-  &:hover {  color: rgb(242, 181, 145);}
-  &:visited {color: rgb(242, 181, 145);}
+  &:hover {color: rgb(204, 212, 217);}
 }
 .navbar, ul a {
   font-family: $font-body;
   text-transform: uppercase;
   color: black;
   font-size: 16px;
+  transition: 0.3s;
+  &:hover {color:rgb(204, 212, 217);}
 }
 .dropdown-toggle::after {
   border: 0;
@@ -90,44 +101,46 @@ body {
   color: white;
   z-index: 100;
 }
-.hero-text, a {
-  padding-top: 50%;
+.hero-text{
   text-align: center;
+  line-height: 3.5rem;
+  padding-top: 25%;
   position: relative;
   font-family: $font-overlay;
   color: white;
   z-index: 100;
   font-size: 3rem;
-  &:hover { color: white;
-            text-decoration: none;}
 }
-
 /*------------------------------Begin section styles-----------------------*/
-#treatment, #form  {
-  padding-top: 175px;
-  padding-bottom: 100px;
-}
 .box-1 {
   background: url("/assets/img/lgbt.jpg")top left no-repeat;
 }
 .box-2 {
-  background: url("/assets/img/career.jpg")top left no-repeat;
+  background: url("/assets/img/relationship.jpg")no-repeat;
+  background-position: 25% 75%;
 }
 .box-3 {
   background: url("/assets/img/anxiety.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 25% 75%;
+
 }
 .box {
-  text-align: center;
-  height: 0;
+  border-radius: 50%;
   background-size: cover;
-  padding-top: 50%;
+  width: 200px;
+  height:200px;
 }
 .map {
   padding-top: 150px;
 }
 #footer {
-  padding: 25px;
-  // background-color: rgb(242, 181, 145);
+  height: 3.5rem;
+  bottom: 0;
+  position: absolute;
+  padding: 10px;
+  background-color: rgb(115, 38, 38);
+  color: white;
 }
 #front-statement, #front-statement-meet {
   padding: 100px;
@@ -136,55 +149,62 @@ body {
   background-color: rgba(204, 212, 217, 85);
 
 }
+#services {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.service-img {
+  border-radius: 50%;
+}
 /*----------------------Begin Overlay Effect Treatment Section-------------*/
-.overlay-effect {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: rgba(84, 188, 232, 0.7);
-  overflow: hidden;
-}
-.overlay-text {
-  position: absolute;
-  text-align: left;
-  font-size: 20px;
-  padding-left: 1em;
-  padding-right: 1em;
-  width: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-.box-button {
-  font-family: $font-overlay;
-  color: white;
-  top: 50%;
-  width: 80%;
-  position: absolute;
-  transition: 0.3s;
-}
-.box:hover .overlay-effect {
-  opacity: 1;
-  cursor: pointer;
-}
-.box:hover .box-button {
-  opacity: 0;
-}
-.box:hover .overlay-text {
-  top: 50%;
-  left: 50%;
-  opacity: 1;
-}
+// .overlay-effect {
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   opacity: 0;
+//   transition: .5s ease;
+//   background-color: rgba(84, 188, 232, 0.7);
+//   overflow: hidden;
+// }
+// .overlay-text {
+//   position: absolute;
+//   text-align: left;
+//   font-size: 20px;
+//   padding-left: 1em;
+//   padding-right: 1em;
+//   width: 100%;
+//   top: 50%;
+//   left: 50%;
+//   opacity: 0;
+//   -webkit-transform: translate(-50%, -50%);
+//   -moz-transform: translate(-50%, -50%);
+//   transform: translate(-50%, -50%);
+//   -webkit-transition: all 0.3s ease-in-out 0s;
+//   -moz-transition: all 0.3s ease-in-out 0s;
+//   transition: all 0.3s ease-in-out 0s;
+// }
+// .box-button {
+//   font-family: $font-overlay;
+//   color: white;
+//   top: 50%;
+//   width: 80%;
+//   position: absolute;
+//   transition: 0.3s;
+// }
+// .box:hover .overlay-effect {
+//   opacity: 1;
+//   cursor: pointer;
+// }
+// .box:hover .box-button {
+//   opacity: 0;
+// }
+// .box:hover .overlay-text {
+//   top: 50%;
+//   left: 50%;
+//   opacity: 1;
+// }
 
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 .kate {
@@ -201,9 +221,11 @@ body {
   padding-right: 0;
 }
 .mdc-card {
-  margin: 5px;
-  min-width: 350px;
-  min-height: 350px;
+  margin: 10px;
+  min-width: 300px;
+}
+.mdc-typography--body3 {
+  color: rgb(115, 38, 38);
 }
 .media-link {
   position:absolute;
@@ -221,15 +243,22 @@ body {
   background-color: black;
   border-radius: 10px 100px / 120px;
 }
+#learn-more:not(:disabled)  {
+  font-family: $font-header;
+  font-size: 15px;
+}
+.mdc-button:hover {
+  background-color: rgb(204, 212, 217);
+}
 .mdc-button::before, .mdc-button::after {
-  background-color: black;
+  background-color: rgb(115, 38, 38);
 }
-.mdc-button:not(:disabled) {
+.mdc-button:not(:disabled), .mdc-button--outlined:not(:disabled) {
+  border-color: rgb(115, 38, 38);
+  font-family: $font-body2;
+  font-weight: bold;
+  font-size: 25px;
   color: black;
-}
-.mdc-button {
-  font-family: $font-body;
-  border-radius: 10px 100px / 120px;
 }
 .caption-btn {
   padding-top: 10px;
@@ -293,7 +322,9 @@ form {
   .hero-overlay {
     width: 100%;
   }
-  .box-3 {
-    background-position: bottom 15% right;
+  #front-statement, #front-statement-meet {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
   }
 }
