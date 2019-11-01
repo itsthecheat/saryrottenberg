@@ -9,7 +9,8 @@ layout: default
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <h2 class="hero-text">Take the first <br>step to a
-          <svg viewbox="0 0 220 60">
+      <!--svg text styling-->
+      <svg viewbox="0 0 220 60">
             <defs>
               <mask id="mask" height="75" width="200" y="0" x="0">
                 <rect x="0" y="0" height="80" fill="#ffffff" width="200"></rect>
@@ -19,6 +20,7 @@ layout: default
               <rect mask="url(#mask)" fill="#ffffff" x="20" y="5" height="50" width="140">
               </rect>
           </svg>
+      <!-- end svg -->
           <br>
           life.</h2>
       </div>
@@ -26,20 +28,18 @@ layout: default
     </div>
   </div>
 </header>
-
-
-
-
-
+<!-- /End Hero Image Begin Frint Statement -->
   <div class="container full-width-container">
     <div class="row">
       <div class="col-12" id="front-statement">
         <div>
           <p>
-          Welcome to Sary Rottenberg Psychotherapy! Our dedicated team of therapists is committed to providing you with empathic care.Learn more about how we can help you.
-          <br>
-          <button class="mdc-button mdc-button--outlined">Click here</button>
+          Welcome to Sary Rottenberg Psychotherapy! Our dedicated team of therapists is committed to providing you with empathic care. Learn more about how we can help you.
           </p>
+          <br>
+          <a href="{% link _pages/services.html %}">
+            <button class="mdc-button mdc-button--outlined">Click here</button>
+          </a>
         </div>
         </div>
       </div>
@@ -47,11 +47,14 @@ layout: default
         <div class="col-12" id="front-statement-meet">
           <p>
             Whether you are looking for support through difficult emotions, traumatic experiences, life  transitions, or would like to explore aspects of your identity, the clinicians at Sary Rottenberg Psychotherapy are here for you.
-            <br>
-            <button class="mdc-button mdc-button--outlined">Meet our team</button>
           </p>
+          <br>
+          <a href="{% link _pages/about.html %}">
+            <button class="mdc-button mdc-button--outlined">Meet our team</button>
+          </a>
         </div>
       </div>
   </div>
-
+<!-- End content
+Begin Footer -->
   {% include footer.html %}
