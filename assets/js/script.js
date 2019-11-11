@@ -16,6 +16,7 @@ const util = mdc.ripple.util;
 (document.querySelectorAll('.my-ripple')).forEach((el) => mdc.ripple.MDCRipple.attachTo(el));
 (document.querySelectorAll('button')).forEach((el) =>
 mdc.ripple.MDCRipple.attachTo(el));
+
 const buttonEl = document.querySelector('.mdc-button');
 const menuEl = document.querySelector('.mdc-menu');
 const menu = new mdc.menu.MDCMenu(menuEl);
