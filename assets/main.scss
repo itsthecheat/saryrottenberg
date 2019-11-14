@@ -39,19 +39,25 @@ i:hover {
   background-color: white !important;
 }
 .info {
-  font-weight: 400;
-  font-size: 18px;
+  color: rgb(1, 64, 64);
+  font-weight: 300;
+  font-size: 19px;
+  text-align: left;
+}
+.info-about {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 19px;
   text-align: left;
 }
 .page-header {
-  font-family: $font-header;
-  padding: 25px;
+  font-family: $font-body;
+  padding: 20px;
   text-align: center;
 }
 .page-header-2 {
   padding: 10px 10px 10px 0;
   font-family: $font-body;
-  font-weight: bold;
 }
 
 /*  ------------------------------ Begin Navigation Bar-------------------------------*/
@@ -69,8 +75,7 @@ i:hover {
 .navbar {
   font-family: $font-body;
   text-transform: uppercase;
-  color: black;
-  font-size: 16px;
+  font-size: 15px;
   transition: 0.3s;
   &:hover {color:rgb(204, 212, 217);}
 }
@@ -80,6 +85,10 @@ i:hover {
 }
 .dropdown-item {
   text-transform: none;
+}
+#contact {
+  color: rgb(115, 38, 38);
+  &:hover {color:black;}
 }
 
 /* ---------------------------Hero Image and Overlay---------------------------*/
@@ -116,11 +125,19 @@ i:hover {
   font-family: $font-overlay;
   color: white;
   z-index: 100;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 /*------------------------------Begin section styles-----------------------*/
+.divider {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 24rem;
+  background: url("/assets/img/family-sitting.jpg") no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
 .box-1 {
-  background: url("/assets/img/lgbt.jpg")top left no-repeat;
+  background: url("/assets/img/group.jpg")top left no-repeat;
 }
 .box-2 {
   background: url("/assets/img/relationship.jpg")no-repeat;
@@ -130,7 +147,11 @@ i:hover {
   background: url("/assets/img/anxiety.jpg") top left no-repeat;
   height: 200px;
   background-position: 25% 75%;
-
+}
+.box-4 {
+  background: url("/assets/img/family.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 25% 75%;
 }
 .box {
   border-radius: 50%;
@@ -145,16 +166,16 @@ i:hover {
   text-align: center;
   bottom: 0;
   position: absolute;
-  padding: 10px;
+  padding: 5px;
   background-color: rgb(115, 38, 38);
   color: white;
 }
 #front-statement, #front-statement-meet {
+  max-width: 1000px;
   padding: 100px;
   font-size: 30px;
   text-align: center;
   background-color: rgba(204, 212, 217, 85);
-
 }
 #services {
   padding-top: 20px;
@@ -179,31 +200,40 @@ a, .mdc-list-tem {
     color: rgb(115, 38, 38);
   }
 }
+a .mdc-button {
+  padding-left: 10px;
+}
 .back {
   font-weight: 500;
 }
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 .kate {
-  background-image: url("/assets/img/kate.jpeg");
+  background-image: url("/assets/img/Kate 8X10_website.jpg");
 }
 .alana {
-  background-image: url("/assets/img/alana.jpeg");
+  background-image: url("/assets/img/Alana 8X10_website.jpg");
 }
 .sary {
-  background-image: url("/assets/img/sary.jpg")
+  background-image: url("/assets/img/Sary 8X10_website.jpg")
 }
 .team {
   padding-left: 0;
   padding-right: 0;
 }
+.headshot {
+  max-height: 500px;
+}
 .mdc-card {
   margin: 10px;
   min-width: 300px;
 }
+.card-body {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 .mdc-typography--body3-specialties {
   color: rgb(115, 38, 38);
   font-size: 15px;
-
 }
 .media-link {
   position:absolute;
@@ -222,24 +252,19 @@ a, .mdc-list-tem {
   background-color: rgba(115, 38, 38, 0.8);
   border-radius: 10px;
 }
-#learn-more:not(:disabled){
-  font-family: $font-header;
-  font-size: 15px;
-  color: rgb(115, 38, 38);
-}
 .mdc-button::before, .mdc-button::after {
   background-color: rgb(115, 38, 38);
 }
 .mdc-button:not(:disabled), .mdc-button--outlined:not(:disabled) {
   border-color: transparent;
-  background-color: white;
-  font-size: 20px;
-  color: black;
-  text-transform: capitalize;
+  color: white;
+  background-color: rgb(115, 38, 38);
+  margin: 5px;
+  height: 25px;
 }
 .caption-btn {
-  padding-top: 10px;
-  padding-left: 0;
+  padding: 10px 10px 10px 0;
+
 }
 
 /* ------------------Begin Contact Form-----------------------------------------*/
@@ -274,16 +299,11 @@ form {
    768-480     - tablet
    480-less    - phone landscape & smaller
 --------------------------------------------*/
-@media all and (min-width: 1024px) and (max-width: 1280px) {
-  .hero-text {
-    font-size: 4rem;
-  }
-svg {
-  width: 250px;
-  height: 150px;
+@media all and (min-width: 1024px) and (max-width: 1980px) {
+.divider {
+  background-position: center -670px;
 }
 }
-
 @media all and (min-width: 768px) and (max-width: 1024px) {
 .navbar-light .navbar-brand {
     font-size: 20px;
@@ -294,12 +314,9 @@ svg {
   padding-left: 5px;
   padding-right: 10px;
 }
-
  }
-
 @media all and (min-width: 480px) and (max-width: 768px) {
 }
-
 @media all and (max-width: 480px) {
   form {
     width: auto;
@@ -312,8 +329,8 @@ svg {
     background-position: -525px;
   }
   .hero-text {
-    text-align: left;
     padding-top: 15px;
+    font-size: 3rem;
   }
   .hero-overlay {
     width: 100%;
@@ -322,6 +339,10 @@ svg {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
+  }
+  .page-header {
+    padding: 5px;
+    font-size: 23px;
   }
   .page-header-2 {
     text-align: center;
