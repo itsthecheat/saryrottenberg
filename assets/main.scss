@@ -13,20 +13,12 @@ body {
   height: 100%;
   background-color: rgba(204, 212, 217, 85);
 }
-i {
-  padding-top: 10px;
-  font-size: 20px;
-  color: white;
-}
-i:hover {
-  color: rgba(204, 212, 217, 85)
-}
-.container {
-  padding-bottom: 2.5rem;
-}
 .wrapper {
   position: relative;
   min-height: 100vh;
+}
+.container {
+  padding-bottom: 2.5rem;
 }
 .full-width-container {
   max-width: 100%;
@@ -35,18 +27,10 @@ i:hover {
   padding-top: 100px;
   text-align: center;
 }
-.bg-light {
-  background-color: white !important;
-}
 .info {
-  color: rgb(1, 64, 64);
-  font-weight: 300;
-  font-size: 19px;
-  text-align: left;
-}
-.info-about {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-weight: 300;
   font-size: 19px;
   text-align: left;
 }
@@ -55,15 +39,21 @@ i:hover {
   padding: 20px;
   text-align: center;
 }
+// secondary header
 .page-header-2 {
   padding: 10px 10px 10px 0;
   font-family: $font-body;
+  font-weight: bold;
 }
 
 /*  ------------------------------ Begin Navigation Bar-------------------------------*/
-.navbar-brand {
-  white-space: normal;
-  transition: 0.3s;
+.bg-light {
+  background-color: white !important;
+}
+.navbar {
+  font-family: $font-body;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 .navbar-light .navbar-brand {
   color: rgb(115, 38, 38);
@@ -71,20 +61,14 @@ i:hover {
   text-transform: uppercase;
   font-size: 30px;
   &:hover {color: rgb(204, 212, 217);}
-}
-.navbar {
-  font-family: $font-body;
-  text-transform: uppercase;
-  font-size: 15px;
   transition: 0.3s;
-  &:hover {color:rgb(204, 212, 217);}
 }
 .dropdown-toggle::after {
   border: 0;
   margin: 0;
 }
 .dropdown-item {
-  text-transform: none;
+  text-transform: uppercase;
 }
 #contact {
   color: rgb(115, 38, 38);
@@ -128,6 +112,13 @@ i:hover {
   font-size: 5rem;
 }
 /*------------------------------Begin section styles-----------------------*/
+#front-statement {
+  max-width: 1000px;
+  padding: 100px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(204, 212, 217, 85);
+}
 .divider {
   position: relative;
   padding-top: 6rem;
@@ -135,6 +126,22 @@ i:hover {
   background: url("/assets/img/family-sitting.jpg") no-repeat;
   background-size: cover;
   background-position: center bottom;
+}
+.divider-2 {
+  font-size: 20px;
+  color: white;
+  padding-top:50px;
+  background-color:rgba(1, 64, 64, .5);
+  padding-bottom: 50px;
+}
+.contact {
+  margin-left: 50px;
+}
+.office {
+  height: 600px;
+  background: url("/assets/img/DSC01882_crop website.jpg") no-repeat;
+  background-size: cover;
+  background-position: center left;
 }
 .box-1 {
   background: url("/assets/img/group.jpg")top left no-repeat;
@@ -144,14 +151,49 @@ i:hover {
   background-position: 25% 75%;
 }
 .box-3 {
-  background: url("/assets/img/anxiety.jpg") top left no-repeat;
+  background: url("/assets/img/individuals.jpg") top left no-repeat;
   height: 200px;
-  background-position: 25% 75%;
+  background-position: 25% 40%;
 }
 .box-4 {
   background: url("/assets/img/family.jpg") top left no-repeat;
   height: 200px;
   background-position: 25% 75%;
+}
+.box-5 {
+  background: url("/assets/img/career.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 25% 75%;
+}
+.box-6 {
+  background: url("/assets/img/loss.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 75% 75%;
+}
+.box-7 {
+  background: url("/assets/img/pride.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 70% 75%;
+}
+.box-8 {
+  background: url("/assets/img/anxiety.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 70% 50%;
+}
+.box-9 {
+  background: url("/assets/img/immigration.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 70% 50%;
+}
+.box-10 {
+  background: url("/assets/img/poc.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 70% 50%;
+}
+.box-11 {
+  background: url("/assets/img/parenting.jpg") top left no-repeat;
+  height: 200px;
+  background-position: 70% 50%;
 }
 .box {
   border-radius: 50%;
@@ -159,8 +201,8 @@ i:hover {
   width: 200px;
   height:200px;
 }
-.map {
-  padding-top: 150px;
+.phone {
+  text-decoration: underline;
 }
 #footer {
   text-align: center;
@@ -170,12 +212,24 @@ i:hover {
   background-color: rgb(115, 38, 38);
   color: white;
 }
-#front-statement, #front-statement-meet {
-  max-width: 1000px;
-  padding: 100px;
-  font-size: 30px;
-  text-align: center;
-  background-color: rgba(204, 212, 217, 85);
+.fas, .fab {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    &:hover {
+      color: rgba(204, 212, 217, 85)
+    }
+  }
+#supervision {
+  padding-bottom: 50px;
+}
+.divider-supervision {
+  position: relative;
+  padding-top: 6rem;
+  padding-bottom: 24rem;
+  background: url("/assets/img/trees.jpg") no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 #services {
   padding-top: 20px;
@@ -191,20 +245,15 @@ i:hover {
   font-size: 15px;
   margin-bottom: 20px;
 }
-.mdc-menu-surface--open {
-  left: -75px !important;
-}
-a, .mdc-list-tem {
+.mdc-list-item {
+  height: 35px;
   color: black;
   &:hover {
     color: rgb(115, 38, 38);
   }
 }
-a .mdc-button {
-  padding-left: 10px;
-}
-.back {
-  font-weight: 500;
+.map {
+  padding-top: 150px;
 }
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 .kate {
@@ -224,16 +273,12 @@ a .mdc-button {
   max-height: 500px;
 }
 .mdc-card {
-  margin: 10px;
-  min-width: 300px;
+  margin: 20px;
+  min-width: 350px;
 }
 .card-body {
   padding-top: 5px;
   padding-bottom: 5px;
-}
-.mdc-typography--body3-specialties {
-  color: rgb(115, 38, 38);
-  font-size: 15px;
 }
 .media-link {
   position:absolute;
@@ -243,17 +288,12 @@ a .mdc-button {
   width: 100%;
 }
 .my-card-title {
-  padding-top: 5px;
-  margin: 1.25rem 0 1px 1.25rem;
+  padding-top: 2px;
+  margin: .25rem 0 1px 1.25rem;
   color: white;
   font-size: 25px;
-  width:130px;
   text-align: center;
   background-color: rgba(115, 38, 38, 0.8);
-  border-radius: 10px;
-}
-.mdc-button::before, .mdc-button::after {
-  background-color: rgb(115, 38, 38);
 }
 .mdc-button:not(:disabled), .mdc-button--outlined:not(:disabled) {
   border-color: transparent;
@@ -264,17 +304,23 @@ a .mdc-button {
 }
 .caption-btn {
   padding: 10px 10px 10px 0;
-
 }
-
+.fa-arrow-left, .back {
+  color: black;
+  &:hover {
+    color: rgb(115, 38, 38);}
+}
+a {
+  color: rgb(115, 38, 38);
+  &:hover {
+      color: rgba(204, 212, 217, 85);}
+}
 /* ------------------Begin Contact Form-----------------------------------------*/
 form {
   margin: 0 auto;
   width: 500px;
   font-weight: 600;
-}
-.form {
-  padding-top: 150px;
+  padding-bottom: 25px;
 }
 .hpot {
   display: none;
@@ -326,7 +372,7 @@ form {
     text-align: center;
   }
   .hero {
-    background-position: -525px;
+    background-position: -425px;
   }
   .hero-text {
     padding-top: 15px;
@@ -335,17 +381,27 @@ form {
   .hero-overlay {
     width: 100%;
   }
-  #front-statement, #front-statement-meet {
+  #front-statement {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
   }
   .page-header {
+    font-weight: bold;
     padding: 5px;
-    font-size: 23px;
+    font-size: 30px;
   }
   .page-header-2 {
     text-align: center;
+  }
+  .divider-2 {
+    font-size: 15px;
+  }
+  .contact {
+    margin-left: 0;
+  }
+  .office {
+    background-position: -50px;
   }
 }
 

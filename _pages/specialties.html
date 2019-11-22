@@ -9,92 +9,39 @@ permalink: /specialties/
       </h1>
     </div>
 </div>
-<!-- Specialties Menu -->
-<div class="row justify-content-center">
-  <div class="menu-container" id="menu-specialties">
-    <button class="mdc-button" id="mdc-button-specialty">Choose Specialty</button>
-    <div class="mdc-menu mdc-menu-surface">
-      <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
-        <a href="#identity" class="page-scroll"><li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Identity</span>
-        </li>
-        </a>
-        <a href="#anxiety" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-            <span class="mdc-list-item__text">Anxiety & Depression</span>
-          </li>
-        </a>
-        <a href="#trauma" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-            <span class="mdc-list-item__text">Trauma</span>
-          </li>
-        </a>
-        <a href="#postpartum" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-            <span class="mdc-list-item__text">Perinatal/Postpartum Mental Health</span>
-          </li>
-        </a>
-        <a href="#infertility" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Infertility</span>
-          </li>
-        </a>
-        <a href="#parenting" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Parenting</span>
-        </li>
-        </a>
-        <a href="#premenstrual" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-            <span class="mdc-list-item__text">Premenstrual Dysphoric Disorder</span>
-          </li>
-        </a>
-        <a href="#career" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Career Choices & Transitions</span>
-        </li>
-        </a>
-        <a href="#illness" class="page-scroll">
-            <li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Chronic Illness & Caregivers</span>
-        </li>
-        </a>
-        <a href="#religion" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Rigid Religious Upbringing/ Cult survivors</span>
-        </li>
-        </a>
-        <a href="#grief" class="page-scroll">
-          <li class="mdc-list-item" role="menuitem">
-          <span class="mdc-list-item__text">Loss & Bereavment</span>
-        </li>
-        </a>
-      </ul>
-    </div>
-  </div>
-</div>
 
+<!-- Specialties Menu -->
+{% include specialties-menu.html %}
 <!-- End Specialties Menu -->
 
 <div class="row justify-content-center" id="identity">
+  <div class="col-lg-3 col-md-4 col-sm-12">
+    <div class="row justify-content-center">
+      <div class="box box-7"></div>
+    </div>
+  </div>
     <div class="col-lg-8 col-md-8 col-sm-12">
       <h3 class="page-header-2">Identity</h3>
       <p class="info">Our practice is dedicated to work with individuals who identify as LGBTQIA++ as well as those exploring aspects of their gender identity and sexuality under the LGBTQIA++ umbrella in a safe space.
         <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
     </div>
   </div>
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-8 col-sm-12">
+      <div class="col-lg-3 col-md-4 col-sm-12 order-lg-last">
+        <div class="row justify-content-center">
+          <div class="box box-8"></div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-8 col-sm-12 order-lg-first">
       <h3 class="page-header-2" id="anxiety">Anxiety & Depression</h3>
       <p class="info">Many people in New York suffer from anxiety, panic attacks, and depression. We can help with navigating these overwhelming feelings.
           <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
     </p>
     </div>
     </div>
@@ -104,9 +51,9 @@ permalink: /specialties/
         <h3 class="page-header-2" id="trauma">Trauma</h3>
         <p class="info">Our experiences have impact- we carry them forward emotionally or by holding the tension of trauma in our bodies. We can also experience trauma across generations. If you have experienced a traumatic event, or know of family members who have, as well as if you have come from a marginalized population, or a culture which is or was traumatized, the effects of these will be addressed in psychotherapy, at your own pace so that you can find your way to be with this history and not have it define you.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href ="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
@@ -115,9 +62,9 @@ permalink: /specialties/
         <h3 class="page-header-2" id="postpartum">Perinatal/Postpartum Mental Health </h3>
         <p class="info">Contemplating family expansion, pregnancy, becoming a parent, and caring for a newborn can bring with it a sense of excitement and trepidation, joy and loss. We are committed to helping you process and navigate these significant life and identity transitions.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
@@ -126,20 +73,25 @@ permalink: /specialties/
         <h3 class="page-header-2" id="infertility">Infertility</h3>
         <p class="info">Experiencing infertility can be stressful. It can bring up feelings of loss, reactions to expectations of ourselves, family and society, as well to unpredictability. If you are struggling with infertility, psychotherapy can help you to process the emotions that arise for you.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
     <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="row justify-content-center">
+          <div class="box box-11"></div>
+        </div>
+      </div>
       <div class="col-lg-8 col-md-8 col-sm-12">
         <h3 class="page-header-2" id="parenting">Parenting</h3>
         <p class="info">Being a parent can be one of the most rewarding and one of the most challenging experiences. If you are looking for support through your journey as a parent, we are here.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
@@ -148,20 +100,25 @@ permalink: /specialties/
         <h3 class="page-header-2" id="premenstrual">Premenstrual Dysphoric Disorder (For Women Identified)</h3>
         <p class="info">Many women experience cyclic mood shifts during their menstrual cycle. If you experience feelings of depression or anxiety that are interfering with your enjoyment of or involvement in day to day activities, work, or school, psychotherapy can help to move through these mood changes.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
     <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="row justify-content-center">
+          <div class="box box-5"></div>
+        </div>
+      </div>
       <div class="col-lg-8 col-md-8 col-sm-12">
         <h3 class="page-header-2" id="career">Career Choices and Transitions</h3>
         <p class="info">Finding direction and choosing meaningful and gainful employment can be confusing and challenging. Psychotherapy provides a platform for finding choices and peace.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
@@ -170,9 +127,9 @@ permalink: /specialties/
         <h3 class="page-header-2" id="illness">Chronic Illness and Caregivers</h3>
         <p class="info">The diagnosis of a chronic illness can be a time fraught with overwhelm, uncertainty, and anxiety. In addition, caring for a loved one facing chronic illness can be daunting. Psychotherapy can help to cope with chronic illness and provide support.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
@@ -181,43 +138,71 @@ permalink: /specialties/
         <h3 class="page-header-2" id="religion">Rigid Religious Upbringing/Cult Survivors</h3>
         <p class="info">When leaving high demand societies or cult like environments readjusting or learning new ways of being if you were born into a cult can be very challenging, we will explore the ways the cult effected your personality and your view of life,  and yourself. We will explore how to navigate your own spirituality in light of your background.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
     <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="row justify-content-center">
+          <div class="box box-6"></div>
+        </div>
+      </div>
       <div class="col-lg-8 col-md-8 col-sm-12">
         <h3 class="page-header-2" id="grief">Loss and Bereavement</h3>
         <p class="info">Losing a loved one can be one of the most challenging moments in the life cycle. Psychotherapy can help you mourn the loss, express emotions, and honor your loved one in a way that feels meaningful to you.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
+
     <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-8 col-sm-12">
+      <div class="col-lg-3 col-md-4 col-sm-12 order-lg-last">
+        <div class="row justify-content-center">
+          <div class="box box-9"></div>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12 order-lg-first">
         <h3 class="page-header-2" id="immigration">Acculturation and Immigration</h3>
         <p class="info">Immigration challenges including finding one's way with identity questions regarding your ethnicity, culture differences and finding your community are difficult to navigate alone. Facilitating your process around these require a therapist who is versed in these matters. You will that in our practice. Whatever we won't understand, we will learn with humility so we can better assist you.
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
+      </p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-lg-3 col-md-4 col-sm-12">
+        <div class="row justify-content-center">
+          <div class="box box-10"></div>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12">
+        <h3 class="page-header-2" id="poc">People of Color</h3>
+        <p class="info">Our practice welcomes people of color and is committed to an antiracist stance. We are committed to doing ongoing work to address systemic racism, patriarchy, and to understand intersectional identities to be better therapists to you.
+            <br>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>
 
     <div class="row justify-content-center">
       <div class="col-lg-8 col-md-8 col-sm-12">
-        <h3 class="page-header-2" id="poc">People of Color</h3>
-        <p class="info">Our practice welcomes people of color and is committed to an antiracist stance. We are committed to doing ongoing work to address systemic racism, patriarchy, and to understand intersectional identities to be better therapists to you.
+        <h3 class="page-header-2" id="hebrew">Hebrew(עברית)</h3>
+        <p class="info">שרי דוברת עברית שוטפת ומבינה את האתגרים המיוחדים לדוברי עברית בארה"ב
             <br>
-        <span class="back">
-          <a href="#page-top" class="page-scroll">Back to top</a>
-        </span>
+
+          <a href="#page-top" class="back page-scroll">Back to top</a>
+
       </p>
       </div>
     </div>

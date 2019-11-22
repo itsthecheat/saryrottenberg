@@ -9,20 +9,6 @@ layout: default
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12">
         <h2 class="hero-text">Take the first <br>step to a better
-      <!--svg text styling-->
-<!--
-      <svg width="200" viewBox="0 -4 200 60" height="60">
-      <defs>
-        <mask id="mask" width="200" x="0" y="0" height="50">
-          <rect x="0" y="0" fill="#ffffff" width="200" height="50"></rect>
-          <text dy="3" y="40" x="37">better</text>
-        </mask>
-      </defs>
-        <rect mask="url(#mask)" fill="#ffffff" x="20" y="5" width="170" height="50">
-        </rect>
-    </svg> -->
-
-      <!-- end svg -->
           <br>
           life.</h2>
       </div>
@@ -30,36 +16,65 @@ layout: default
     </div>
   </div>
 </header>
-<!-- /End Hero Image Begin Frint Statement -->
+<!-- /End Hero Image Begin Front Statement -->
   <div class="container full-width-container">
     <div class="row justify-content-center">
       <div class="col-12" id="front-statement">
         <div>
           <p>
-          Welcome to Sary Rottenberg Psychotherapy! Our dedicated team of therapists is committed to providing you with empathic care. Learn more about how we can help you.
+          Welcome to Rottenberg Therapy! Our dedicated team of therapists is committed to providing you with empathic care. Learn more about how we can help you.
           </p>
           <br>
-          <a href="{% link _pages/services.html %}">
-            <button class="mdc-button mdc-button--outlined">Click here</button>
-          </a>
-        </div>
-        </div>
-      </div>
-      <div class="row divider">
+            <a href="{% link _pages/services.html %}">
+            <button class="mdc-button mdc-button--raised"><span class="mdc-button__ripple"></span>Click Here</button>
+            </a>
 
+        </div>
+        </div>
       </div>
+
+      <div class="row divider">
+      </div>
+
       <div class="row justify-content-center">
-        <div class="col-12" id="front-statement-meet">
+        <div class="col-12" id="front-statement">
           <p>
-            Whether you are looking for support through difficult emotions, traumatic experiences, life  transitions, or would like to explore aspects of your identity, the clinicians at Sary Rottenberg Psychotherapy are here for you.
+            Whether you are looking for support through difficult emotions, traumatic experiences, life  transitions, or would like to explore aspects of your identity, the clinicians at Rottenberg Therapy are here for you.
           </p>
           <br>
           <a href="{% link _pages/about.html %}">
-            <button class="mdc-button mdc-button--outlined">Meet our team</button>
+            <button class="mdc-button mdc-button--raised"><span class="mdc-button__ripple"></span>Meet Our Team</button>
+          </a>
+        </div>
+      </div>
+
+<!-- office photo and contact info -->
+      <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-6 col-sm-12 office">
+        </div>
+        <div class="divider-2 col-lg-6 col-md-6 col-sm-12 text-center">
+          <h2>Contact one of our professionals today:</h2><br/>
+          <div class="col-12 text-left contact">
+            <p>
+              <a href="{% link _pages/contact.html %}">
+                <i class="fas fa-envelope"></i>
+              </a>Sary Rottenberg, LMHC: <span class="phone">203-518-4177</span><br/>
+              <a href="{% link _pages/contact.html %}">
+                <i class="fas fa-envelope"></i>
+              </a>Kate Blemler, MHC-LP: <span class="phone">929-376-9839</span><br/>
+              <a href="{% link _pages/contact.html %}">
+                <i class="fas fa-envelope"></i>
+              </a>Alana Devine-Dunn, MHC-LP: <span class="phone">646-397-6235</span><br/>
+          </p>
+          </div>
+
+          <a href="{% link _pages/contact.html %}">
+            <button class="mdc-button mdc-button--raised">Schedule a Free Consultation</button>
           </a>
         </div>
       </div>
   </div>
+
 <!-- End content
 Begin Footer -->
   {% include footer.html %}

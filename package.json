@@ -1,7 +1,7 @@
 {
   "name": "sary",
   "version": "1.0.0",
-  "description": "Website for Sary Rottenberg Psychotherapy",
+  "description": "Website for Rottenberg Therapy",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
