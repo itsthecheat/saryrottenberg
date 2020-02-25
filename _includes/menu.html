@@ -1,40 +1,41 @@
+<div class="container">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" role="navigation">
+    <div class="d-flex flex-nowrap w-auto">
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" role="navigation">
-  <div class="d-flex flex-nowrap w-auto">
+  {% if page.url != "/" %}
+    <a class="navbar-brand" href="{% link index.html %}">Rottenberg Therapy</a>
+  {% else %}
+    <a class="navbar-brand page-scroll" href="#page-top">Rottenberg Therapy</a>
+  {% endif %}
 
-{% if page.url != "/" %}
-  <a class="navbar-brand" href="{% link index.html %}">Rottenberg Therapy</a>
-{% else %}
-  <a class="navbar-brand page-scroll" href="#page-top">Rottenberg Therapy</a>
-{% endif %}
-
-  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  </div>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="{% link _pages/services.html %}">Services</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          What We Offer
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="{% link _pages/specialties.html %}">Specialties</a>
-          <a class="dropdown-item" href="{% link _pages/supervision.html %}">Supervision</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{% link _pages/about.html %}">Who We Are</a>
-      </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link" href="">Blog</a>
-      </li> -->
-      <li class="nav-item">
-        <a class="nav-link" id="contact" href="{% link _pages/contact.html %}">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{% link _pages/services.html %}">Services</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            What We Offer
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{% link _pages/specialties.html %}">Specialties</a>
+            <a class="dropdown-item" href="{% link _pages/supervision.html %}">Supervision</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{% link _pages/about.html %}">Who We Are</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="">Blog</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" id="contact" href="{% link _pages/contact.html %}">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
