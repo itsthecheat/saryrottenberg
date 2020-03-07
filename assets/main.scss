@@ -81,7 +81,7 @@ body {
   margin-left: -200;
   padding-top: 6rem;
   padding-bottom: 24rem;
-  background: url("/assets/img/hero.jpg") no-repeat;
+  background: url("/assets/img/hero-compressor.jpg") no-repeat;
   background-size: cover;
   background-position: right bottom;
   height: 100vh;
@@ -123,7 +123,7 @@ body {
   position: relative;
   padding-top: 6rem;
   padding-bottom: 24rem;
-  background: url("/assets/img/family-sitting.jpg") no-repeat;
+  background: url("/assets/img/family-sitting-compressor.jpg") no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
@@ -139,7 +139,7 @@ body {
 }
 .office {
   height: 600px;
-  background: url("/assets/img/DSC01882_crop website.jpg") no-repeat;
+  background: url("/assets/img/DSC01882_crop-website-compressor-1.jpg") no-repeat;
   background-size: cover;
   background-position: center left;
 }
@@ -404,55 +404,3 @@ form {
     background-position: -50px;
   }
 }
-
-
-
-/*----------------------Begin Overlay Effect Treatment Section-------------*/
-// .overlay-effect {
-//   position: absolute;
-//   top: 0;
-//   bottom: 0;
-//   left: 0;
-//   right: 0;
-//   opacity: 0;
-//   transition: .5s ease;
-//   background-color: rgba(84, 188, 232, 0.7);
-//   overflow: hidden;
-// }
-// .overlay-text {
-//   position: absolute;
-//   text-align: left;
-//   font-size: 20px;
-//   padding-left: 1em;
-//   padding-right: 1em;
-//   width: 100%;
-//   top: 50%;
-//   left: 50%;
-//   opacity: 0;
-//   -webkit-transform: translate(-50%, -50%);
-//   -moz-transform: translate(-50%, -50%);
-//   transform: translate(-50%, -50%);
-//   -webkit-transition: all 0.3s ease-in-out 0s;
-//   -moz-transition: all 0.3s ease-in-out 0s;
-//   transition: all 0.3s ease-in-out 0s;
-// }
-// .box-button {
-//   font-family: $font-overlay;
-//   color: white;
-//   top: 50%;
-//   width: 80%;
-//   position: absolute;
-//   transition: 0.3s;
-// }
-// .box:hover .overlay-effect {
-//   opacity: 1;
-//   cursor: pointer;
-// }
-// .box:hover .box-button {
-//   opacity: 0;
-// }
-// .box:hover .overlay-text {
-//   top: 50%;
-//   left: 50%;
-//   opacity: 1;
-// }
