@@ -96,11 +96,42 @@ body {
   z-index: 1;
 }
 .hero-arrow {
+  font-size: 35px;
   bottom: 20%;
   left: 50%;
   position: absolute;
   color: white;
   z-index: 100;
+  animation: bounce .5s infinite alternate;
+-webkit-animation: bounce .5s infinite alternate;
+}
+a.fas, .fa-arrow-circle-down {
+  font-size: 30px;
+}
+.fas, .fab {
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+
+    &:hover {
+      color: rgba(204, 212, 217, 85)
+    }
+  }
+  @keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-10px);
+  }
 }
 .hero-text{
   padding-left: 25px;
@@ -125,14 +156,14 @@ body {
   padding-bottom: 24rem;
   background: url("/assets/img/family-sitting-compressor.jpg") no-repeat;
   background-size: cover;
-  background-position: center bottom;
+  background-position: center 75%;
 }
 .divider-2 {
   font-size: 20px;
   color: white;
-  padding-top:50px;
+  padding-top: 35px;
   background-color:rgba(1, 64, 64, .5);
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .contact {
   margin-left: 50px;
@@ -212,14 +243,6 @@ body {
   background-color: rgb(115, 38, 38);
   color: white;
 }
-.fas, .fab {
-    padding-top: 10px;
-    font-size: 20px;
-    color: white;
-    &:hover {
-      color: rgba(204, 212, 217, 85)
-    }
-  }
 #supervision {
   padding-bottom: 50px;
 }
@@ -355,7 +378,7 @@ form {
 --------------------------------------------*/
 @media all and (min-width: 1024px) and (max-width: 1980px) {
 .divider {
-  background-position: center -670px;
+  // background-position: center -670px;
 }
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
