@@ -143,7 +143,7 @@ a.fas, .fa-arrow-circle-down {
   font-size: 5rem;
 }
 /*------------------------------Begin section styles-----------------------*/
-#front-statement {
+.front-statement {
   max-width: 1000px;
   padding: 100px;
   font-size: 30px;
@@ -158,15 +158,23 @@ a.fas, .fa-arrow-circle-down {
   background-size: cover;
   background-position: center 75%;
 }
+a#section-two-arrow {
+  font-size: 25px;
+  padding-top: 75px;
+  color: rgb(115, 38, 38);
+  &:hover {
+    color: white;
+  }
+}
+.our-team {
+  font-size: 18px;
+}
 .divider-2 {
   font-size: 20px;
   color: white;
   padding-top: 35px;
   background-color:rgba(1, 64, 64, .5);
   padding-bottom: 20px;
-}
-.contact {
-  margin-left: 50px;
 }
 .office {
   height: 600px;
@@ -243,6 +251,14 @@ a.fas, .fa-arrow-circle-down {
   background-color: rgb(115, 38, 38);
   color: white;
 }
+.credit, a:visited {
+  color: white;
+}
+.credit {
+  font-size: 12px;
+  color: white;
+  padding-left: 5px;
+}
 #supervision {
   padding-bottom: 50px;
 }
@@ -277,6 +293,9 @@ a.fas, .fa-arrow-circle-down {
 }
 .map {
   padding-top: 150px;
+}
+.contact {
+  text-align: center;
 }
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 .owner {
@@ -349,7 +368,6 @@ a {
 /* ------------------Begin Contact Form-----------------------------------------*/
 form {
   margin: 0 auto;
-  width: 500px;
   font-weight: 600;
   padding-bottom: 25px;
 }
@@ -398,6 +416,9 @@ form {
   form {
     width: auto;
   }
+  #footer {
+    font-size: 12px;
+  }
   .navbar-light .navbar-brand {
     font-size: 20px;
     text-align: center;
@@ -412,7 +433,7 @@ form {
   .hero-overlay {
     width: 100%;
   }
-  #front-statement {
+  .front-statement,h2 {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
@@ -428,10 +449,10 @@ form {
   .divider-2 {
     font-size: 15px;
   }
-  .contact {
-    margin-left: 0;
-  }
   .office {
     background-position: -50px;
+  }
+  .contact {
+    text-align: left;
   }
 }
