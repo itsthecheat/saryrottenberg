@@ -16,7 +16,7 @@
 title: Rottenberg Therapy - New York City based therapy for individuals and couples
 email: sary@rottenbergtherapy.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Psychotherapy practive located in New York City, specializing in trauma, LGBTQ+, couples, relationships, career changes.
+  Sary Rottenberg Psychotherapy provides therapy to individuals and couples in New York City and surrounding areas. We specialize in and treat relationships, career changes, trauma, depression, anxiety as well as issues affecting the LGBTQ community.
 baseurl: / # the subpath of your site, e.g. /blog
 url: "http://www.rottenbergtherapy.com"
 plugins:
