@@ -3,9 +3,9 @@
     <div class="d-flex flex-nowrap w-auto">
 
   {% if page.url != "/" %}
-    <a class="navbar-brand" href="{% link index.html %}">Rottenberg Therapy</a>
+    <a class="navbar-brand" href="{% link index.html %}">{{site.brand}}</a>
   {% else %}
-    <a class="navbar-brand page-scroll" href="#page-top">Rottenberg Therapy</a>
+    <a class="navbar-brand page-scroll" href="#page-top">{{site.brand}}</a>
   {% endif %}
 
     <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
