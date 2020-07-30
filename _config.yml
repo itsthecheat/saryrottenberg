@@ -24,6 +24,11 @@ address: 245 W 29th St, New York, NY 10001
 plugins:
   - jekyll-sitemap
   - jekyll-loading-lazy
+  - jekyll-analytics
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-172086252          
+    anonymizeIp: false
 # Build settings
 include: [_pages]
 markdown: kramdown

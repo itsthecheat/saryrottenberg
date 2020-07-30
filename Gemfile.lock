@@ -27,6 +27,7 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
+    jekyll-analytics (0.1.14)
     jekyll-loading-lazy (0.1.1)
       jekyll (>= 3.0, < 5.0)
       nokogiri (>= 1.10, < 2.0)
@@ -68,6 +69,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 3.8.5)
+  jekyll-analytics
   jekyll-loading-lazy
   jekyll-sitemap
   tzinfo (~> 1.2)
