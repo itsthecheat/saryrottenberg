@@ -1,25 +1,36 @@
 
 {% for employee in site.data.employees %}
-<div class="container full-width-container">
-  <div class="row justify-content-center">
-        <div class="mdc-card col-sm-12 col-md-4 col-lg-2 team">
-       <div class="mdc-card__primary-action mdc-ripple-surface my-ripple" tabindex="0">
-         <div class="mdc-card__media mdc-card__media--square sary">
-           <a class="media-link" href="{% link _pages/sary-rottenberg.html %}"><div class="mdc-card__media-content">
-             <h2 class="my-card-title">{{employee[1].name}}</h2>
-           </div></a>
-           <h3 class="my-card-title" id="sub-title">Owner/Founder</h3>
+  <div class="mdc-card col-sm-12 col-md-4 col-lg-2 team">
+    {% assign name = employee[0] %}
+    {% assign page = employee[1].page %}
+      <div class="mdc-card__primary-action mdc-ripple-surface my-ripple" tabindex="0">
+        <div class="mdc-card__media mdc-card__media--square {{name}}">
+          <a class="media-link" href="{{site.url}}/{{page}}">
+            <div class="mdc-card__media-content">
+              <h2 class="my-card-title">{{employee[1].name}}</h2>
+           </div>
+         </a>
+           {% if name == "sary" %}
+           <h3 class="my-card-title" id="sub-title">{{employee[1].title}}</h3>
+           {% endif %}
         </div>
-        </div>
+      </div>
         <div class="card-body mdc-typography mdc-typography--body2">Specialties: <span class="specialties">
-          <a href="{{site.url}}/specialties/#identity"> Gender Variance</a>, <a href="{{site.url}}/specialties/#poc">People of Color</a>, <a href="{{site.url}}/specialties/#immigration">Acculturation and Immigration</a>, <a href="{{site.url}}/specialties/#religion">Cult/Rigid Religious Upbringing</a>, <a href="{{site.url}}/specialties/#illness">Chronic Illness/Pain</a>, <a href="{{site.url}}/specialties/#identity">LGBTQIA++</a>, <a href="{{site.url}}/specialties/#hebrew">Hebrew עברית</a>, <a href="{{site.url}}/specialties/#anxiety">Anxiety/Depression</a>, <a href="{{site.url}}/specialties/#career">Career</a>, <a href="{{site.url}}/specialties/#trauma">Trauma</a></span>
-          </div>
-        <div class="card-body mdc-typography mdc-typography--body2 text-left">When you choose to begin therapy, a match is important to growth and change. I am direct, warm and will help you confront some of the more challenging aspects of yourself. My goal is always to facilitate living the best life you can. <br/><br/> Keeping that in mind, therapy can be demanding at times, and requires a lot of patience with yourself and with the work. We will learn together how to communicate about what is happening in therapy beyond the words that are used.
+          {% for item in employee[1].specialties %}
+           {% for specialty in item %}
+           {% assign link = specialty[1].link %}
+          <a href="{{site.url}}/specialties/{{link}}"> {{specialty[0]}} </a>
+           {% endfor %}
+          {% endfor %}
+        </span>
+        </div>
+        <div class="card-body mdc-typography mdc-typography--body2 text-left">
+          {{employee[1].blurb}}
         </div>
           <div class="mdc-card__actions">
             <div class="mdc-card__action-buttons">
-              <a href="{% link _pages/sary-rottenberg.html %}"><button id="learn-more" class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Learn More</button></a>
-              <a href="mailto:{{ employee.email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com"><button id="learn-more" class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Schedule</button></a>
+              <a href="{{site.url}}/{{page}}"><button id="learn-more" class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Learn More</button></a>
+              <a href="mailto:{{ employee[1].email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com"><button id="learn-more" class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Schedule</button></a>
             </div>
           </div>
     </div>
