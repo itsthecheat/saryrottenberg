@@ -3,6 +3,7 @@ sary:
   title: Owner/Founder
   email: sary@rottenbergtherapy.com
   page: sary-rottenberg/
+  image: /assets/img/Sary 8X10_website.jpg
   specialties:
     - Gender Variance:
         link: '#identity'
@@ -24,15 +25,21 @@ sary:
         link: '#career'
     - Trauma:
         link: '#trauma'
-  blurb: |
+  blurb: |-
       When you choose to begin therapy, a match is important to growth and change. I am direct, warm and will help you confront some of the more challenging aspects of yourself. My goal is always to facilitate living the best life you can.
 
-
       Keeping that in mind, therapy can be demanding at times, and requires a lot of patience with yourself and with the work. We will learn together how to communicate about what is happening in therapy beyond the words that are used.
+  bio: |
+    I believe in a collaborative approach and one that assists you in finding only the interpretations that resonate with you, and are meaningful in moving forward. My approach to therapy is Psychodynamic, Relational, Existential, Humanistic and always heart-centered. My interests lie in meaning-making and helping people reach their fullest potential.
+
+    Some of the people I work with struggle with anxiety and depression, issues in careers, people with histories of trauma, people who identify as gender nonconforming, people with chronic illness and people who come from cults or a rigid religious upbrining. I also welcome people of color into my practice and am committed to an anti antiracist stance as a white therapist.
+
+    I continue to address patriarchy within myself to be a more conscious therapist to you. In addition to English I conduct therapy in Hebrew. See Hebrew description attached. As such, I work with people who deal with acculturation, immgitration and multicultural identities and welcome people from around the world to be listened to with an aware ear.
 alana:
   name: Alana Devine-Dunn, MHC-LP
   email: alana@rottenbergtherapy.com
   page: alana-devine-dunn/
+  image: /assets/img/Alana 8X10_website.jpg
   specialties:
      - Prenatal/Postpartum Mental Health:
         link: '#postpartum'
@@ -53,44 +60,96 @@ alana:
      - Young Adults:
      - LGBTQIA++:
         link: '#identity'
-  blurb: |
+  blurb: |-
       Welcome! I respect the courage that it takes to enter into therapy, as well as the feelings of accomplishment and vulnerability that can arise. Our work will be non-judgmental, active and collaborative.
 
       In our sessions, we will work to pinpoint goals, to name, understand, accept, and weather the emotions you experience, to recognize those values that are most meaningful to you, to identify and implement adaptive ways of addressing concerns, achieving goals, and navigating life transitions, and to understand the influence of past experience on present ways of thinking and relating to others.
-kate:
-  name: Kate Blemler, MHC-LP
-  email: kate@rottenbergtherapy.com
-  page: kate-blemler/
-  specialties:
-     - Polyamory:
-     - LGBTQIA++:
-        link: '#identity'
-     - Sexuality:
-     - Identity:
-     - Anxiety/Depression:
-        link: '#anxiety'
-     - Couples and Family:
-        link: '#parenting'
-     - Trauma:
-        link: '#trauma'
-  blurb: |
-      My goal in working together will be to provide a safe space for us to explore recurring patterns and unconscious influences, such as unresolved traumas from our past, which can contribute to the difficulties we face in the present and become obstacles in living truly fulfilling lives.
+  bio: |
+    I work with individuals experiencing depression, anxiety, OCD, career, life-role, and relationship transitions as well as those seeking emotional support in dealing with medical diagnoses, loss, and trauma. I work with patients to uncover and address their core beliefs, emotions, behaviors, and thoughts. This gives patients not only the tools to cope with difficult situations, but also agency in their lives and the opportunity to thrive.
 
-      In our work together, we will explore how these influences and patterns may result in unsatisfying relationships with ourselves and with others. We will also consider the environmental, societal, and interpersonal influences that impact our thoughts and actions.
+    Additionally, I have received training in women’s mental health and maternal mental health. I provide effective therapeutic care to clients experiencing premenstrual dysphoric disorder, perinatal and postpartum depression, anxiety, and OCD, as well as those coping with infertility and loss. I collaborate with patients to address cognitions and goals around the decision to have children, and relationship transitions as they become parents.
+
+    I have worked successfully with adults and young adults experiencing depression, anxiety, and perinatal mood and anxiety disorders. I work from an LGBTQIA+ affirming perspective to provide support for individuals of all identities and family constellations. Additionally, I have an interest in work with individuals exploring identity and individuation.
+
+    I earned my Bachelor of Arts in Psychology from Barnard College, Columbia University and my Master of Arts in Mental Health Counseling from Brooklyn College, City University of New York. I completed my clinical training at the Brooklyn College Personal Counseling Center and the Seleni Institute.
+
+    I work utilizing an integrative approach, incorporating techniques from cognitive behavioral therapy, acceptance and commitment therapy, dialectical behavior therapy, mindfulness-based approaches, and psychodynamic psychotherapy, based your individualized needs and goals.
+
+    I look forward to meeting you and to our work together.
 rene:
   name: Rene Gonzalez, LMHC
-  email:
-  page:
+  email: rene@rottenbergtherapy.com
+  page: rene-gonzalez/
+  image: /assets/img/rene.jpg
   specialties:
-  blurb: |
+      - LGBTQIA++:
+          link: '#identity'
+      - People of Color:
+          link: '#poc'
+      - Anxiety/Depression:
+          link: '#anxiety'
+      - Bipolar Disorder:
+      - Relationship Issues:
+      - Breakups/Divorce:
+      - Life Transitions:
+          link: '#career'
+      - Trauma:
+          link: '#trauma'
+      - Young Adults:
+      - Complex Identities:
+      - Panic Attacks:
+      - Spanish:
+  blurb: |-
+      My life experiences as someone at the intersection of various identities is what drew me to psychology, and to NYC.  These experiences — in addition to my training — inform the work I do, especially with clients who think of themselves as “different” from the rest.
+
+      Unconditional positive regard is a staple of the work I do, which means that I refrain from judgement, and accept my clients no matter who they are or what they share.  I use a variety of different approaches and techniques, like CBT, mindfulness, ACT, etc., but the relationship between myself and my client is often what gets the most attention, as research proves that having a positive relationship with your therapist is the best indicator of a good outcome.  If you decide to reach out to me, I’ll make time for a brief chat so we can figure out if I'm the right therapist for you.
+  bio: |-
+      My life experiences as someone at the intersection of various identities is what drew me to psychology, and to NYC.  These experiences — in addition to my training — inform the work I do, especially with clients who think of themselves as “different” from the rest.
+
+      Unconditional positive regard is a staple of the work I do, which means that I refrain from judgement, and accept my clients no matter who they are or what they share.  I use a variety of different approaches and techniques, like CBT, mindfulness, ACT, etc., but the relationship between myself and my client is often what gets the most attention, as research proves that having a positive relationship with your therapist is the best indicator of a good outcome.  If you decide to reach out to me, I’ll make time for a brief chat so we can figure out if I'm the right therapist for you.
 cassandra:
   name: Cassandra Robertson-Benjamin, MHC-LP
-  email:
-  page:
+  email: cassandra@rottenbergtherapy.com
+  page: cassandra-robertson-benjamin/
+  image: /assets/img/cassandra.jpg
   specialties:
-  blurb: |
+  blurb: |-
+      At first, we will strive to learn if we can connect. We will explore and acknowledge if this is a space you can allow yourself to be seen. We will look at your challenges and strengths to understand how you have
+
+      My goal is to create a safe space where exploration, questioning, discovery, and feeling are possible.  I seek to be a partner who holds a light to illuminate the unknown places.
+
+      For you, this work may be challenging, perhaps more than you imagined. However, you will not be alone. We will work together to create a path toward your goals.
+  bio: |
+    Although rooted in the psychodynamic principle of exploring the unconscious, familial history, and recurring behavior patterns as a path to knowing who we are today, my approach for moving past these patterns can also be understood as eclectic. Capable of being personalized to the needs of the individual, couple, or family before me. Ours would be a collaborative effort marked by respect, genuineness, deep acceptance and where possible humor and hope.
+
+    Those who have benefited from this work have dealt with challenges ranging from anxiety/depression, trauma, grief, relationship transitions and strife, major life change, abuse, as well as parent and child relationship issues. I welcome to my practice all those identifying as coming from marginalized groups as well as those who do not, but who nonetheless wish to be seen.
+
+    I continue to explore the intersection between all my identities (woman, person of color, professional, daughter, etc.) so that I might be more empathetic to you. I have learned and been supervised by highly experienced therapists/mentors who stretch my thinking beyond what can be accomplished alone. You too will be my collaborator and teacher as we explore, name, and strive to reach your goals.
 madison:
   name: Madison Liddle, MHC-LP
-  email:
-  page:
-  blurb: |
+  email: madison@rottenbergtherapy.com
+  page: madison-liddle/
+  image: /assets/img/madison.png
+  specialties:
+      - Relationships:
+      - Life Transitions:
+      - Gender:
+          link: '#identity'
+      - Sex:
+      - Sexuality:
+      - Sexual Trauma:
+          link: '#trauma'
+      - Adults and Young Adults:
+      - Depression/Anxiety:
+          link: '#anxiety'
+      - OCD:
+      - PTSD:
+      - CPTSD:
+  blurb: |-
+      I graduated from Columbia University’s Counseling Psychology program where I earned a dual master’s degree in mental health counseling, specializing in LGBTQIA mental health. I earned an Advanced Certificate in Sexuality, Women, and Gender. I am trained in Cognitive Behavioral Therapy (CBT), psychodynamic psychotherapy, and am in the process of becoming an AASECT certified sex therapist.
+  bio: |
+    I graduated from Columbia University’s Counseling Psychology program where I earned a dual master’s degree in mental health counseling, specializing in LGBTQIA mental health. I earned an Advanced Certificate in Sexuality, Women, and Gender. I am trained in Cognitive Behavioral Therapy (CBT), psychodynamic psychotherapy, and am in the process of becoming an AASECT certified sex therapist.
+
+    Using a feminist, relational, and integrated CBT - psychodynamic approach to working with clients, I aim to empower clients to connect authentically with themselves, others, and the world at large. I am collaborative, direct, and often use humor to help clients work towards becoming the best versions of themselves, however they define it. I don’t think there is one right way to live or be, and my approach to therapy reflects that. I am firmly anti-racist, sex-positive, and radically inclusive.
+
+    Irvin Yalom has described the relationship between therapist and client to be one of mutual growth and discovery, aptly using the phrase fellow travelers to describe this unique bond. I too like to conceptualize the therapeutic relationship in this way, believing wholeheartedly in its healing powers. As fellow travelers, we will work collaboratively in a non-judgmental space; using the relationship we create to understand and heal patterns in your life.

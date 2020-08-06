@@ -1,0 +1,28 @@
+---
+layout: default
+title: Sary Rottenberg, LMHC
+description: >-
+  About Sary,the Owner/Founder of Rottenberg Therapy in NYC.
+permalink: /sary-rottenberg/
+---
+<div class="container-fluid card-container">
+<div class="row-fluid header">
+  <div class="col-sm-12">
+    <h2 class="page-header">{{site.data.employees.sary.name}}<br/><span class="owner">{{site.data.employees.sary.title}}</span></h2>
+
+  </div>
+</div>
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-12">
+      <img src="{{site.data.employees.sary.image}}" alt="{{site.data.employees.sary.name}}" class="img-fluid headshot">
+      <div class="col caption-btn">
+            <a href="mailto:{{site.data.employees.sary.email}}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com"><button id="learn-more" class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Schedule</button></a>
+            <a href="{%link _pages/supervision.html%}"><button id="learn-more" class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Supervision</button></a>
+      </div>
+    </div>
+    <div class="col-lg-8 col-md-8 col-sm-12 info">
+      {{site.data.employees.sary.bio | markdownify}}
+      <a href="{% link _pages/meet-our-team.html %}"><span id="back"><i class="fas fa-arrow-left"></i></span></a>
+    </div>
+  </div>
+  </div>
