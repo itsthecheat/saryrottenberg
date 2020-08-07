@@ -11,7 +11,7 @@ body {
   font-family: $font-body;
   width: 100%;
   height: 100%;
-  background-color: rgba(204, 212, 217, 85);
+  background-color: $light-grey;
 }
 .wrapper {
   position: relative;
@@ -56,7 +56,7 @@ body {
   font-size: 15px;
 }
 .navbar-light .navbar-brand {
-  color: rgb(115, 38, 38);
+  color: $maroon;
   font-family: $font-header;
   text-transform: uppercase;
   font-size: 30px;
@@ -71,7 +71,7 @@ body {
   text-transform: uppercase;
 }
 #contact {
-  color: rgb(115, 38, 38);
+  color: $maroon;
   &:hover {color:black;}
 }
 
@@ -114,7 +114,7 @@ a.fas, .fa-arrow-circle-down {
     color: white;
 
     &:hover {
-      color: rgba(204, 212, 217, 85)
+      color: $light-grey
     }
   }
   @keyframes bounce {
@@ -148,7 +148,7 @@ a.fas, .fa-arrow-circle-down {
   padding: 100px;
   font-size: 30px;
   text-align: center;
-  background-color: rgba(204, 212, 217, 85);
+  background-color: $light-grey;
 }
 .divider {
   position: relative;
@@ -161,7 +161,7 @@ a.fas, .fa-arrow-circle-down {
 a#section-two-arrow {
   font-size: 25px;
   padding-top: 75px;
-  color: rgb(115, 38, 38);
+  color: $maroon;
   &:hover {
     color: white;
   }
@@ -248,7 +248,7 @@ a#section-two-arrow {
   bottom: 0;
   position: absolute;
   padding: 5px;
-  background-color: rgb(115, 38, 38);
+  background-color: $maroon;
   color: white;
 }
 .credit, a:visited {
@@ -288,7 +288,7 @@ a#section-two-arrow {
   height: 35px;
   color: black;
   &:hover {
-    color: rgb(115, 38, 38);
+    color: $maroon;
   }
 }
 .map {
@@ -357,7 +357,7 @@ a#section-two-arrow {
 .mdc-button:not(:disabled), .mdc-button--outlined:not(:disabled) {
   border-color: transparent;
   color: white;
-  background-color: rgb(115, 38, 38);
+  background-color: $maroon;
   margin: 5px;
   height: 25px;
 }
@@ -367,14 +367,14 @@ a#section-two-arrow {
 .fa-arrow-left, .back {
   color: black;
   &:hover {
-    color: rgb(115, 38, 38);}
+    color: $maroon;}
 }
 a {
-  color: rgb(115, 38, 38);
+  color: $maroon;
   &:hover {
-      color: rgba(204, 212, 217, 85);}
+      color: $light-grey;}
   &:visited {
-      color: rgb(115, 38, 38);}
+      color: $maroon;}
 }
 /* ------------------Begin Contact Form-----------------------------------------*/
 form {

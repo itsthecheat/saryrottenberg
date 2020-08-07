@@ -12,32 +12,40 @@ $('html, body').animate({
 
 // custom form routing
 $("#menu").change(function(){
-       var selection = $(this).children("option:selected").val();
-      switch (selection) {
-        case '1':
-          $('form').attr('action', 'https://formspree.io/sary@rottenbergtherapy.com');
-        break;
-        case '2':
-        $('form').attr('action', 'https://formspree.io/kate@rottenbergtherapy.com');
-        break;
-        default:
+  var selection = $(this).children("option:selected").val();
+    switch (selection) {
+      case '1':
+        $('form').attr('action', 'https://formspree.io/sary@rottenbergtherapy.com');
+      break;
+      case '2':
         $('form').attr('action', 'https://formspree.io/alana@rottenbergtherapy.com');
-      }
-   });
+      break;
+      case '3':
+        $('form').attr('action', 'https://formspree.io/rene@rottenbergtherapy.com');
+      break;
+      case '4':
+        $('form').attr('action', 'https://formspree.io/cassandra@rottenbergtherapy.com');
+      break;
+      default:
+        $('form').attr('action', 'https://formspree.io/madison@rottenbergtherapy.com');
+    }
+});
 
 // material ripple efffect
 const MDCRipple = mdc.ripple.MDCRipple;
 const MDCRippleFoundation = mdc.ripple.MDCRippleFoundation;
 const util = mdc.ripple.util;
 
-(document.querySelectorAll('.my-ripple')).forEach((el) => mdc.ripple.MDCRipple.attachTo(el));
+(document.querySelectorAll('.my-ripple')).forEach((el) =>
+  mdc.ripple.MDCRipple.attachTo(el));
 (document.querySelectorAll('button')).forEach((el) =>
-mdc.ripple.MDCRipple.attachTo(el));
+  mdc.ripple.MDCRipple.attachTo(el));
 
 // material specialties menu
 const buttonEl = document.querySelector('.mdc-button');
 const menuEl = document.querySelector('.mdc-menu');
 const menu = new mdc.menu.MDCMenu(menuEl);
+
 buttonEl.addEventListener('click', (event) => {
   menu.open = !menu.open;
   menu.setAnchorCorner(mdc.menu.Corner.BOTTOM_LEFT);
