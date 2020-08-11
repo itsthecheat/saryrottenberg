@@ -113,6 +113,19 @@ cassandra:
   page: cassandra-robertson-benjamin/
   image: /assets/img/cassandra.jpg
   specialties:
+    - Anxiety:
+        link: '#anxiety'
+    - Depression:
+        link: '#anxiety'
+    - Perfectionism:
+    - Life Transitions:
+    - Family Dynamics:
+    - Romantic Life:
+    - Commitment Obstacles:
+    - Couples Therapy:
+    - Race-Related Stress:
+    - LGBTQIA++:
+        link: '#identity'
   blurb: |-
       At first, we will strive to learn if we can connect. We will explore and acknowledge if this is a space you can allow yourself to be seen. We will look at your challenges and strengths to understand how you have
 
