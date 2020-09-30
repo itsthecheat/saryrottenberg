@@ -1,3 +1,5 @@
+
+
 <!-- Extended material form grid -->
 <form method="POST" action="">
   <!-- honeypot -->
@@ -9,14 +11,14 @@
   <!-- Grid column -->
   <div class="col-md-6 col-sm-12">
     <div class="md-form form-group">
-      <input type="text" class="form-control" id="name" placeholder="Name" name="name" autocomplete="name">
+      <input type="text" class="form-control" id="name" placeholder="Name" name="name" autocomplete="name" required>
       <label for="name">Name</label>
     </div>
   </div>
   <!-- Grid column -->
   <div class="col-md-6 col-sm-12">
     <div class="md-form form-group">
-      <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto" autocomplete="email">
+      <input type="email" class="form-control" id="email" placeholder="Email" name="_replyto" autocomplete="email" required minlength="8">
       <label for="email">Email</label>
     </div>
   </div>
@@ -27,7 +29,7 @@
   <!-- Grid column -->
   <div class="col-md-12 col-sm-12">
     <div class="md-form form-group">
-      <select id="menu" class="browser-default custom-select">
+      <select id="menu" class="browser-default custom-select" required>
         <option>Who would you like to contact</option>
         <option value="1">{{site.data.employees.sary.name}}</option>
         <option value="2">{{site.data.employees.alana.name}}</option>
@@ -45,7 +47,7 @@
   <div class="col-md-12 col-sm-12">
   <div class="form-group">
   <label for="message">Message</label>
-  <textarea name="message" class="form-control rounded-0" id="message" rows="5"></textarea>
+  <textarea name="message" class="form-control rounded-0" id="message" rows="5" required></textarea>
 </div>
   </div>
 </div>

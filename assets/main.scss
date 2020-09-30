@@ -412,6 +412,9 @@ form {
     outline: 0;
     box-shadow: 0 0 0 .2rem whitesmoke;
 }
+input:invalid {
+  border-color: $maroon;
+}
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480
    1280-1024   - desktop (default grid)
