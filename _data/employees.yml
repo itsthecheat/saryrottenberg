@@ -3,7 +3,7 @@ sary:
   title: Owner/Founder
   email: sary@rottenbergtherapy.com
   page: sary-rottenberg/
-  image: /assets/img/Sary 8X10_website.jpg
+  image: /assets/img/headshots/Sary-1.jpg
   specialties:
     - Gender Variance:
         link: '#identity'
@@ -39,7 +39,7 @@ alana:
   name: Alana Devine-Dunn, MHC-LP
   email: alana@rottenbergtherapy.com
   page: alana-devine-dunn/
-  image: /assets/img/Alana 8X10_website.jpg
+  image: /assets/img/headshots/Alana-1.jpg
   specialties:
      - Prenatal/Postpartum Mental Health:
         link: '#postpartum'
@@ -80,7 +80,7 @@ rene:
   name: Rene Gonzalez, LMHC
   email: rene@rottenbergtherapy.com
   page: rene-gonzalez/
-  image: /assets/img/rene.jpg
+  image: /assets/img/headshots/Rene-1.jpg
   specialties:
       - LGBTQIA++:
           link: '#identity'
@@ -114,7 +114,7 @@ cassandra:
   name: Cassandra Robertson-Benjamin, MHC-LP
   email: cassandra@rottenbergtherapy.com
   page: cassandra-robertson-benjamin/
-  image: /assets/img/cassandra.jpg
+  image: /assets/img/headshots/Cassandra-1.jpg
   specialties:
     - Anxiety:
         link: '#anxiety'
@@ -145,7 +145,7 @@ madison:
   name: Madison Liddle, MHC-LP
   email: madison@rottenbergtherapy.com
   page: madison-liddle/
-  image: /assets/img/madison.png
+  image: /assets/img/headshots/Madison-1.jpg
   specialties:
       - Relationships:
       - Life Transitions:
