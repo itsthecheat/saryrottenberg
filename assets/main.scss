@@ -380,6 +380,9 @@ a {
       color: $maroon;}
 }
 /* ------------------Begin Contact Form-----------------------------------------*/
+p.email-list a:hover {
+  color: black;
+}
 form {
   margin: 0 auto;
   font-weight: 600;

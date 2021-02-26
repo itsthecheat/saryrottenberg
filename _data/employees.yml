@@ -1,40 +1,3 @@
-sary:
-  name: Sary Rottenberg, LMHC
-  title: Owner/Founder
-  email: sary@rottenbergtherapy.com
-  page: sary-rottenberg/
-  image: /assets/img/headshots/Sary-1.jpg
-  specialties:
-    - Gender Variance:
-        link: '#identity'
-    - People of Color:
-        link: '#poc'
-    - Acculturation and Immigration:
-        link: '#immigration'
-    - Cult/Rigid Religious Upbringing:
-        link: '#religion'
-    - Chronic Illness/Pain:
-        link: '#illness'
-    - LGBTQIA++:
-        link: '#identity'
-    - Hebrew:
-        link: '#hebrew'
-    - Anxiety/Depression:
-        link: '#anxiety'
-    - Career:
-        link: '#career'
-    - Trauma:
-        link: '#trauma'
-  blurb: |-
-      When you choose to begin therapy, a match is important to growth and change. I am direct, warm and will help you confront some of the more challenging aspects of yourself. My goal is always to facilitate living the best life you can.
-
-      Keeping that in mind, therapy can be demanding at times, and requires a lot of patience with yourself and with the work. We will learn together how to communicate about what is happening in therapy beyond the words that are used.
-  bio: |
-    I believe in a collaborative approach and one that assists you in finding only the interpretations that resonate with you, and are meaningful in moving forward. My approach to therapy is Psychodynamic, Relational, Existential, Humanistic and always heart-centered. My interests lie in meaning-making and helping people reach their fullest potential.
-
-    Some of the people I work with struggle with anxiety and depression, issues in careers, people with histories of trauma, people who identify as gender nonconforming, people with chronic illness and people who come from cults or a rigid religious upbrining. I also welcome people of color into my practice and am committed to an anti antiracist stance as a white therapist.
-
-    I continue to address patriarchy within myself to be a more conscious therapist to you. In addition to English I conduct therapy in Hebrew. See Hebrew description attached. As such, I work with people who deal with acculturation, immgitration and multicultural identities and welcome people from around the world to be listened to with an aware ear.
 alana:
   name: Alana Devine-Dunn, MHC-LP
   email: alana@rottenbergtherapy.com
@@ -135,3 +98,40 @@ madison:
       I graduated from Columbia University’s Counseling Psychology program where I earned a dual master’s degree in mental health counseling, specializing in LGBTQIA mental health. I earned an Advanced Certificate in Sexuality, Women, and Gender. I am trained in Cognitive Behavioral Therapy (CBT), psychodynamic psychotherapy, and am in the process of becoming an AASECT certified sex therapist.
 
       Using a feminist, relational, and integrated CBT - psychodynamic approach to working with clients, I aim to empower clients to connect authentically with themselves, others, and the world at large. I am collaborative, direct, and often use humor to help clients work towards becoming the best versions of themselves, however they define it. I don’t think there is one right way to live or be, and my approach to therapy reflects that. I am firmly anti-racist, sex-positive, and radically inclusive.
+sary:
+  name: Sary Rottenberg, LMHC
+  title: Owner/Founder
+  email: sary@rottenbergtherapy.com
+  page: sary-rottenberg/
+  image: /assets/img/headshots/Sary-1.jpg
+  specialties:
+    - Gender Variance:
+        link: '#identity'
+    - People of Color:
+        link: '#poc'
+    - Acculturation and Immigration:
+        link: '#immigration'
+    - Cult/Rigid Religious Upbringing:
+        link: '#religion'
+    - Chronic Illness/Pain:
+        link: '#illness'
+    - LGBTQIA++:
+        link: '#identity'
+    - Hebrew:
+        link: '#hebrew'
+    - Anxiety/Depression:
+        link: '#anxiety'
+    - Career:
+        link: '#career'
+    - Trauma:
+        link: '#trauma'
+  blurb: |-
+      When you choose to begin therapy, a match is important to growth and change. I am direct, warm and will help you confront some of the more challenging aspects of yourself. My goal is always to facilitate living the best life you can.
+
+      Keeping that in mind, therapy can be demanding at times, and requires a lot of patience with yourself and with the work. We will learn together how to communicate about what is happening in therapy beyond the words that are used.
+  bio: |
+    I believe in a collaborative approach and one that assists you in finding only the interpretations that resonate with you, and are meaningful in moving forward. My approach to therapy is Psychodynamic, Relational, Existential, Humanistic and always heart-centered. My interests lie in meaning-making and helping people reach their fullest potential.
+
+    Some of the people I work with struggle with anxiety and depression, issues in careers, people with histories of trauma, people who identify as gender nonconforming, people with chronic illness and people who come from cults or a rigid religious upbrining. I also welcome people of color into my practice and am committed to an anti antiracist stance as a white therapist.
+
+    I continue to address patriarchy within myself to be a more conscious therapist to you. In addition to English I conduct therapy in Hebrew. See Hebrew description attached. As such, I work with people who deal with acculturation, immgitration and multicultural identities and welcome people from around the world to be listened to with an aware ear.

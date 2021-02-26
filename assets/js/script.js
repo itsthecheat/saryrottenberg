@@ -29,17 +29,6 @@ $("#menu").change(function(){
         $('form').attr('action', 'https://formspree.io/madison@rottenbergtherapy.com');
     }
 });
-//custom form validation
-// const form  = document.getElementsByTagName('form')[0];
-//
-  const email = document.getElementById('email');
-  email.addEventListener('input', function (e) {
-    if (email.validity.typeMismatch) {
-      email.setCustomValidity('Please enter a valid email address');
-    } else {
-      email.setCustomValidity('')
-    }
-  })
 
 // material ripple efffect
 const MDCRipple = mdc.ripple.MDCRipple;
