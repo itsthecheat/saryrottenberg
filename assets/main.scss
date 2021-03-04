@@ -379,45 +379,57 @@ a {
   &:visited {
       color: $maroon;}
 }
+
+.employee-headshot {
+  text-align: center !important;
+}
 /* ------------------Begin Contact Form-----------------------------------------*/
+p.email-list a {
+  font-weight: 400;
+}
 p.email-list a:hover {
   color: black;
-}
-form {
-  margin: 0 auto;
   font-weight: 600;
-  padding-bottom: 25px;
 }
-.hpot {
-  display: none;
-}
- iframe {
+iframe {
    position: relative;
    width: 100%;
    height: 400px;
  }
-.custom-select, .form-control {
-  background-color: transparent;
-  border: solid 1px;
-}
-.md-form label {
-  color: black;
-}
-.md-form input:not([type]):focus:not([readonly]), .md-form input[type="date"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]), .md-form input[type="email"]:not(.browser-default):focus:not([readonly]), .md-form input[type="number"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search-md"]:focus:not([readonly]), .md-form input[type="search"]:not(.browser-default):focus:not([readonly]), .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]), .md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="time"]:not(.browser-default):focus:not([readonly]), .md-form input[type="url"]:not(.browser-default):focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
-  border-bottom: 1px solid white;
-  box-shadow: 0 1px 0 0 white;
-}
-.md-form input:not([type]):focus:not([readonly]) + label, .md-form input[type="date"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="email"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="number"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="password"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="search-md"]:focus:not([readonly]) + label, .md-form input[type="search"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="text"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="time"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="url"]:not(.browser-default):focus:not([readonly]) + label, .md-form textarea.md-textarea:focus:not([readonly]) + label {
-    color: black;
-}
-.form-control:focus {
-    border-color: black;
-    outline: 0;
-    box-shadow: 0 0 0 .2rem whitesmoke;
-}
-input:invalid {
-  border-color: $maroon;
-}
+ i.fas.fa-envelope:hover {
+   color: white;
+
+ }
+// form {
+//   margin: 0 auto;
+//   font-weight: 600;
+//   padding-bottom: 25px;
+// }
+// .hpot {
+//   display: none;
+// }
+// .custom-select, .form-control {
+//   background-color: transparent;
+//   border: solid 1px;
+// }
+// .md-form label {
+//   color: black;
+// }
+// .md-form input:not([type]):focus:not([readonly]), .md-form input[type="date"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]), .md-form input[type="email"]:not(.browser-default):focus:not([readonly]), .md-form input[type="number"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search-md"]:focus:not([readonly]), .md-form input[type="search"]:not(.browser-default):focus:not([readonly]), .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]), .md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="time"]:not(.browser-default):focus:not([readonly]), .md-form input[type="url"]:not(.browser-default):focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
+//   border-bottom: 1px solid white;
+//   box-shadow: 0 1px 0 0 white;
+// }
+// .md-form input:not([type]):focus:not([readonly]) + label, .md-form input[type="date"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="email"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="number"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="password"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="search-md"]:focus:not([readonly]) + label, .md-form input[type="search"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="text"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="time"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="url"]:not(.browser-default):focus:not([readonly]) + label, .md-form textarea.md-textarea:focus:not([readonly]) + label {
+//     color: black;
+// }
+// .form-control:focus {
+//     border-color: black;
+//     outline: 0;
+//     box-shadow: 0 0 0 .2rem whitesmoke;
+// }
+// input:invalid {
+//   border-color: $maroon;
+// }
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480
    1280-1024   - desktop (default grid)
@@ -486,5 +498,8 @@ input:invalid {
   .contact {
     text-align: left;
     padding-left: 20px;
+  }
+  .mdc-menu .mdc-menu-surface {
+    left: -75px !important;
   }
 }

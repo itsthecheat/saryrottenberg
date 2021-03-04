@@ -10,25 +10,25 @@ $('html, body').animate({
 });
 
 // custom form routing
-$("#menu").change(function(){
-  var selection = $(this).children("option:selected").val();
-    switch (selection) {
-      case '1':
-        $('form').attr('action', 'https://formspree.io/sary@rottenbergtherapy.com');
-      break;
-      case '2':
-        $('form').attr('action', 'https://formspree.io/alana@rottenbergtherapy.com');
-      break;
-      case '3':
-        $('form').attr('action', 'https://formspree.io/rene@rottenbergtherapy.com');
-      break;
-      case '4':
-        $('form').attr('action', 'https://formspree.io/cassandra@rottenbergtherapy.com');
-      break;
-      default:
-        $('form').attr('action', 'https://formspree.io/madison@rottenbergtherapy.com');
-    }
-});
+// $("#menu").change(function(){
+//   var selection = $(this).children("option:selected").val();
+//     switch (selection) {
+//       case '1':
+//         $('form').attr('action', 'https://formspree.io/sary@rottenbergtherapy.com');
+//       break;
+//       case '2':
+//         $('form').attr('action', 'https://formspree.io/alana@rottenbergtherapy.com');
+//       break;
+//       case '3':
+//         $('form').attr('action', 'https://formspree.io/rene@rottenbergtherapy.com');
+//       break;
+//       case '4':
+//         $('form').attr('action', 'https://formspree.io/cassandra@rottenbergtherapy.com');
+//       break;
+//       default:
+//         $('form').attr('action', 'https://formspree.io/madison@rottenbergtherapy.com');
+//     }
+// });
 
 // material ripple efffect
 const MDCRipple = mdc.ripple.MDCRipple;
