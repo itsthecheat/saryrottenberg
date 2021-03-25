@@ -16,23 +16,14 @@ permalink: /contact/
       </h1>
      
         <p class="email-list">
-          <a href="mailto:{{site.data.employees.sary.email}}">
-            <i class="fas fa-envelope"></i>
-          {{site.data.employees.sary.name}}</a>
-          <!-- <span class="phone">203-518-4177</span> -->
+          {% for employee in site.data.employees %}
+            {% assign name = employee[1].name %}
+            <a href="mailto:{{ employee[1].email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com">
+              <i class="fas fa-envelope"></i>
+            {{name}}</a>
+            <br />
+          {% endfor %}
           <br />
-          <a href="mailto:{{site.data.employees.alana.email}}">
-            <i class="fas fa-envelope"></i>
-          {{site.data.employees.alana.name}}</a>
-          <!-- <span class="phone">646-397-6235</span> -->
-          <br />
-          <a href="mailto:{{site.data.employees.cassandra.email}}">
-            <i class="fas fa-envelope"></i>
-          {{site.data.employees.cassandra.name}}</a>
-          <br />
-          <a href="mailto:{{site.data.employees.madison.email}}">
-            <i class="fas fa-envelope"></i>
-          {{site.data.employees.madison.name}}</a>
           <br />
         </p>
       

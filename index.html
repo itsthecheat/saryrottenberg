@@ -60,23 +60,14 @@ description: >-
           <h2>Contact one of our professionals today:</h2><br/>
           <div class="contact">
             <p>
-              <a href="mailto:{{site.data.employees.sary.email}}">
-                <i class="fas fa-envelope"></i>
-              </a>{{site.data.employees.sary.name}}
-              <!-- <span class="phone">203-518-4177</span> -->
+              {% for employee in site.data.employees %}
+                {% assign name = employee[1].name %}
+                <a id="contact-list" href="mailto:{{ employee[1].email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com">
+                <i class="fas fa-envelope"></i> {{name}}
+                </a>
+              <br />
+              {% endfor %}
               <br/>
-              <a href="mailto:{{site.data.employees.alana.email}}">
-                <i class="fas fa-envelope"></i>
-              </a>{{site.data.employees.alana.name}}
-              <!-- <span class="phone">646-397-6235</span> -->
-              <br/>
-              <a href="mailto:{{site.data.employees.cassandra.email}}">
-                <i class="fas fa-envelope"></i>
-              </a>{{site.data.employees.cassandra.name}}
-              <br/>
-              <a href="mailto:{{site.data.employees.madison.email}}">
-                <i class="fas fa-envelope"></i>
-              </a>{{site.data.employees.madison.name}}
               <br/>
           </p>
           </div>

@@ -379,6 +379,13 @@ a {
   &:visited {
       color: $maroon;}
 }
+a,#contact-list {
+  color: white;
+  &:hover {
+      color: grey;}
+  &:visited {
+      color: white;}
+}
 
 .employee-headshot {
   text-align: center !important;
