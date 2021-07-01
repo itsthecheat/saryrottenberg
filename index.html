@@ -54,24 +54,26 @@ description: >-
 
 <!-- office photo and contact info -->
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-6 col-sm-12 office">
+        <div class="col-lg-6 col-md-12 col-sm-12 office">
         </div>
-        <div class="divider-2 col-lg-6 col-md-6 col-sm-12 text-center">
+        <div class="divider-2 col-lg-6 col-md-12 col-sm-12 text-center">
+         
           <h2>Contact one of our professionals today:</h2><br/>
           <div class="contact">
             <p>
               {% for employee in site.data.employees %}
                 {% assign name = employee[1].name %}
-                <a id="contact-list" href="mailto:{{ employee[1].email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com">
+                {% assign email = employee[1].email %}
+                <a id="contact-list" href="mailto:{{ email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com">
                 <i class="fas fa-envelope"></i> {{name}}
-                </a>
+                </a>| {{email}}
               <br />
               {% endfor %}
               <br/>
               <br/>
           </p>
           </div>
-
+<h3>We offer both virtual and in-person appointments</h3>
           <a href="{% link _pages/contact.html %}">
             <button class="mdc-button mdc-button--raised">Schedule a Free Consultation</button>
           </a>

@@ -7,10 +7,15 @@ permalink: /contact/
 ---
 
 <div class="container">
-
+  <div class="row">
+    <div id="contact-page-header" class="col-lg-12 col-md-12 col-sm-12">
+      <h3 class="page-header-2">Virtual and In-Person Appointments Available</h3>
+    </div>
+</div>
   <div class="row justify-content-center map">
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="col-lg-8 col-md-12 col-sm-12">
+      
       <h1 class="page-header-2">
         Schedule a Free Consultation
       </h1>
@@ -18,32 +23,40 @@ permalink: /contact/
         <p class="email-list">
           {% for employee in site.data.employees %}
             {% assign name = employee[1].name %}
+            {% assign email = employee[1].email %}
             <a href="mailto:{{ employee[1].email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com">
               <i class="fas fa-envelope"></i>
-            {{name}}</a>
+            {{name}}</a>, {{email}}
             <br />
           {% endfor %}
           <br />
           <br />
         </p>
-      
+        <h3 class="page-header-2">
+          Listed On:
+        </h3>
+        <div style="max-width: 250px; margin-left: 25px "> <a href="https://zencare.co" target="_blank"
+            rel="noreferrer"><img src="https://zencare.s3.us-east-2.amazonaws.com/badges/therapist_white.png"
+              style="display: block; width: 100%; "></a> <a href="https://zencare.co/region/nyc" target="_blank"><img
+              src="https://zencare.s3.us-east-2.amazonaws.com/badges/nyc/member_white.png" alt="zencare"
+              style="display: block; width: 100%; "></a> </div>
+        <br />
+        <div class="row">
+          <div style="background-color:white; max-width: 325px; margin-left: 25px">
+            <a href="http://www.mywellbeing.com"><img style="max-width:300px; border: solid white 3px"
+                src="/assets/img/mywellbeing-logo-MWB.png" alt="wellbeing"></a>
+          </div>
+        </div>
     </div>
 
-    <div class="col-lg-6 col-md-6 col-sm-12">
+    <div class="col-lg-4 col-md-12 col-sm-12">
       <h2 class="page-header-2">
         Our Location
       </h2>
-      <iframe class="mw-250" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJM7QM169ZwokR_40cJDZaujk&key=AIzaSyC_qKIJdHDv_xY19WxvOJ4cORwC74kbRKM" allowfullscreen></iframe>
-      <h3 class="page-header-2">
-        Listed On:
-      </h3>
-       <div style="max-width: 250px; text-align: center; margin: auto; "> <a href="https://zencare.co" target="_blank" rel="noreferrer"><img src="https://zencare.s3.us-east-2.amazonaws.com/badges/therapist_white.png" style="display: block; width: 100%; "></a> <a href="https://zencare.co/region/nyc" target="_blank"><img src="https://zencare.s3.us-east-2.amazonaws.com/badges/nyc/member_white.png" alt="zencare" style="display: block; width: 100%; "></a> </div>
-       <br />
-       <div class="row justify-content-center">
-         <div  style="background-color:white; max-width: 325px">
-           <a href="http://www.mywellbeing.com"><img style="max-width:300px; border: solid white 3px" src="/assets/img/mywellbeing-logo-MWB.png" alt="wellbeing"></a>
-         </div>
-       </div>
+      <iframe class="mw-250" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.946620674656!2d-73.97150688402645!3d40.67514507933606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25ba7bc63d5b7%3A0xfc2c79bac0d61eeb!2s34%20Plaza%20St%20W%2C%20Brooklyn%2C%20NY%2011238!5e0!3m2!1sen!2sus!4v1625172091500!5m2!1sen!2sus"
+        allowfullscreen="" loading="lazy"></iframe>
+      
     </div>
 
   </div>
