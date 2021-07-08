@@ -24,9 +24,10 @@ permalink: /contact/
           {% for employee in site.data.employees %}
             {% assign name = employee[1].name %}
             {% assign email = employee[1].email %}
+            {% assign phone = employee[1].phone %}
             <a href="mailto:{{ employee[1].email }}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com">
               <i class="fas fa-envelope"></i>
-            {{name}}</a>, {{email}}
+            {{name}}</a>, {{email}}, {{phone}}
             <br />
           {% endfor %}
           <br />
@@ -46,6 +47,10 @@ permalink: /contact/
             <a href="http://www.mywellbeing.com"><img style="max-width:300px; border: solid white 3px"
                 src="/assets/img/mywellbeing-logo-MWB.png" alt="wellbeing"></a>
           </div>
+        </div>
+        <div class="row">
+          <a href="https://www.inclusivetherapists.com" title="Find me on Inclusive Therapists" target="_blank"><img style="padding: 25px"
+              src="https://www.inclusivetherapists.com/images/badges/12.png" border="0"></a>
         </div>
     </div>
 

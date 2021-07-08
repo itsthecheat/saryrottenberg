@@ -1,6 +1,7 @@
 alana:
   name: Alana Devine-Dunn, MHC-LP
   email: alana@rottenbergtherapy.com
+  phone: 646-397-6235
   page: alana-devine-dunn/
   image: /assets/img/headshots/Alana-1.jpg
   specialties:
@@ -42,6 +43,7 @@ alana:
 cassandra:
   name: Cassandra Robertson-Benjamin, MHC-LP
   email: cassandra@rottenbergtherapy.com
+  phone: 929-363-7427
   page: cassandra-robertson-benjamin/
   image: /assets/img/headshots/Cassandra-1.jpg
   specialties:
@@ -73,6 +75,7 @@ cassandra:
 nisreen:
   name: Nisreen Osseili, EdM, MA, MHC-LP (she/her)
   email: nisreen@rottenbergtherapy.com
+  phone: 929-500-2125
   page: nisreen-osseili/
   image: /assets/img/headshots/Nisreen-1.jpg
   specialties:
@@ -111,13 +114,12 @@ sary:
   name: Sary Rottenberg, LMHC
   title: Owner/Founder
   email: sary@rottenbergtherapy.com
+  phone: 203-518-4177
   page: sary-rottenberg/
   image: /assets/img/headshots/Sary-1.jpg
   specialties:
     - Gender Variance:
         link: '#identity'
-    - People of Color:
-        link: '#poc'
     - Acculturation and Immigration:
         link: '#immigration'
     - Cult/Rigid Religious Upbringing:
