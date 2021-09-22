@@ -3,6 +3,7 @@
 @import "_variables";
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -13,7 +14,7 @@ body {
   height: 100%;
   background-color: $light-grey;
 }
-div, .dropdown-menu.show {
+.dropdown-menu.show {
   border: 0;
 }
 .wrapper {
@@ -53,19 +54,22 @@ div, .dropdown-menu.show {
 .bg-light {
   background-color: white !important;
 }
-.navbar {
+nav.navbar {
   font-family: $font-body;
   text-transform: uppercase;
   font-size: 15px;
 }
-.navbar-light .navbar-brand {
+ div > a.navbar-brand {
   color: $maroon;
   font-family: $font-header;
   text-transform: uppercase;
   font-size: 30px;
-  &:hover {color: rgb(204, 212, 217);}
   transition: 0.3s;
+  &:visited { color: $maroon;}
 }
+.navbar-light .navbar-brand:hover {
+color: rgb(204, 212, 217);
+} 
 .dropdown-toggle::after {
   border: 0;
   margin: 0;
@@ -294,9 +298,6 @@ a#section-two-arrow {
     color: $maroon;
   }
 }
-// .map {
-//   padding-top: 50px;
-// }
 .contact {
   text-align: center;
 }
@@ -305,6 +306,13 @@ a#section-two-arrow {
   justify-content: center;
 }
 /* -------------------------Begin About Page Styles-------------------------------------------*/
+span > a  {
+  color: $maroon;
+  &:visited {
+      color: $maroon;}
+  &:hover {
+      color: $light-grey;}
+}
 .owner {
   font-size: 20px;
 }
@@ -377,13 +385,6 @@ div.mdc-card__media {
     color: black;
   }
 }
-a {
-  color: $maroon;
-  &:hover {
-      color: $light-grey;}
-  &:visited {
-      color: $maroon;}
-}
 #contact-list {
   color: white;
   &:hover {
@@ -412,36 +413,7 @@ iframe {
    color: white;
 
  }
-// form {
-//   margin: 0 auto;
-//   font-weight: 600;
-//   padding-bottom: 25px;
-// }
-// .hpot {
-//   display: none;
-// }
-// .custom-select, .form-control {
-//   background-color: transparent;
-//   border: solid 1px;
-// }
-// .md-form label {
-//   color: black;
-// }
-// .md-form input:not([type]):focus:not([readonly]), .md-form input[type="date"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]), .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]), .md-form input[type="email"]:not(.browser-default):focus:not([readonly]), .md-form input[type="number"]:not(.browser-default):focus:not([readonly]), .md-form input[type="password"]:not(.browser-default):focus:not([readonly]), .md-form input[type="search-md"]:focus:not([readonly]), .md-form input[type="search"]:not(.browser-default):focus:not([readonly]), .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]), .md-form input[type="text"]:not(.browser-default):focus:not([readonly]), .md-form input[type="time"]:not(.browser-default):focus:not([readonly]), .md-form input[type="url"]:not(.browser-default):focus:not([readonly]), .md-form textarea.md-textarea:focus:not([readonly]) {
-//   border-bottom: 1px solid white;
-//   box-shadow: 0 1px 0 0 white;
-// }
-// .md-form input:not([type]):focus:not([readonly]) + label, .md-form input[type="date"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="email"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="number"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="password"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="search-md"]:focus:not([readonly]) + label, .md-form input[type="search"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="text"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="time"]:not(.browser-default):focus:not([readonly]) + label, .md-form input[type="url"]:not(.browser-default):focus:not([readonly]) + label, .md-form textarea.md-textarea:focus:not([readonly]) + label {
-//     color: black;
-// }
-// .form-control:focus {
-//     border-color: black;
-//     outline: 0;
-//     box-shadow: 0 0 0 .2rem whitesmoke;
-// }
-// input:invalid {
-//   border-color: $maroon;
-// }
+
 /*------------------------------------------
   Responsive Grid Media Queries - 1280, 1024, 768, 480
    1280-1024   - desktop (default grid)
