@@ -13,9 +13,8 @@ body {
   width: 100%;
   height: 100%;
   background-color: $light-grey;
-}
-.dropdown-menu.show {
-  border: 0;
+  font-weight: 300;
+  font-size: 19px;
 }
 .wrapper {
   position: relative;
@@ -34,8 +33,6 @@ body {
 .info {
   padding-top: 20px;
   padding-bottom: 20px;
-  font-weight: 300;
-  font-size: 19px;
   text-align: left;
 }
 .page-header {
@@ -59,23 +56,27 @@ nav.navbar {
   text-transform: uppercase;
   font-size: 15px;
 }
- div > a.navbar-brand {
-  color: $maroon;
+ div > a.navbar-brand, .navbar-light .navbar-brand {
   font-family: $font-header;
   text-transform: uppercase;
   font-size: 30px;
   transition: 0.3s;
-  &:visited { color: $maroon;}
+  &:link { color: $maroon !important;}
+  &:visited { color: $maroon !important;}
+  &:focus { color: $maroon !important;}
+  &:focus-visible { color: $maroon !important;}
+  &:hover { color: rgb(204, 212, 217) !important;} 
 }
-.navbar-light .navbar-brand:hover {
-color: rgb(204, 212, 217);
-} 
+.dropdown-menu.show {
+  border: 0;
+}
 .dropdown-toggle::after {
   border: 0;
   margin: 0;
 }
-.dropdown-item {
+.navbar .dropdown-menu a {
   text-transform: uppercase;
+  font-size: 15px !important;
 }
 #contact {
   color: $maroon;
@@ -154,6 +155,9 @@ a.fas, .fa-arrow-circle-down {
   font-size: 5rem;
 }
 /*------------------------------Begin section styles-----------------------*/
+.section {
+  margin: 0 auto;
+}
 .front-statement {
   max-width: 1000px;
   padding: 100px;
@@ -371,7 +375,7 @@ div.mdc-card__media {
   color: white;
   background-color: $maroon;
   margin: 5px;
-  height: 25px;
+  height: 50px;
 }
 .caption-btn {
   padding: 10px 10px 10px 0;
@@ -422,16 +426,14 @@ iframe {
    480-less    - phone landscape & smaller
 --------------------------------------------*/
 @media all and (min-width: 1024px) and (max-width: 1980px) {
-.divider {
-  // background-position: center -670px;
-}
+
 }
 @media all and (min-width: 768px) and (max-width: 1024px) {
 .navbar-light .navbar-brand {
     font-size: 20px;
     padding-left: 10px;
   }
-.navbar, ul a {
+.navbar ul a {
   font-size: 14px;
   padding-left: 5px;
   padding-right: 10px;
@@ -462,7 +464,7 @@ iframe {
    background: rgba(5, 5 ,5, 0.5);
 
   }
-  .front-statement,h2 {
+  .front-statement {
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;

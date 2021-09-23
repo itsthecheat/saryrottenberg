@@ -1,0 +1,31 @@
+---
+layout: default
+title: LGBTQIA Therapy - Sary Rottenberg - West Brooklyn, NY
+description: >-
+    Are you in need of support that respects
+    your identity and doesn’t discount it? LGBTQIA therapy with Rottenberg Therapy can help you find your voice to heal.
+permalink: /lgbtqia-counseling/
+---
+
+<div class="container full-width-container">
+    <div class="row header">
+        <div class="col-12">
+            <h1><strong>LGBTQIA Counseling</strong></h1>
+        </div>
+    </div>
+    {% for section in site.data.specialty.lgbtqia %}
+    <div class="col-lg-8 col-md-12 col-sm-12 section">
+        {% if section.header %}
+        <div class="row">
+            <h2 class="page-header">{{section.header}}</h2>
+        </div>
+        {% elsif section.subheader %}
+        <div class="row">
+            <h3>{{section.subheader}}</h3>
+        </div>
+        {% endif %}
+        <p>{{section.paragraph | markdownify}}</p>
+    </div>
+    {% endfor %}
+
+</div>

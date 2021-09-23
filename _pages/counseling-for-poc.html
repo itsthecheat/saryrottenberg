@@ -9,20 +9,17 @@ permalink: /counseling-for-poc/
 <div class="container full-width-container">
     <div class="row header">
         <div class="col-12">
-            <h1 class="page-header">Counseling for POC</h1>
+            <h1><strong>Counseling for POC</strong></h1>
         </div>
     </div>
         {% for section in site.data.specialty.poc %}
-        <div class="col-lg-10 col-md-10 col-sm-12"> 
+        <div class="col-lg-8 col-md-12 col-sm-12 section"> 
             {% if section.header %}
-            <div class="row"><h2>{{section.header}}</h2></div>
+            <div class="row"><h2 class="page-header">{{section.header}}</h2></div>
             {% elsif section.subheader %}
-            <div class="row">
-                <h3>{{section.subheader}}</h3>
-            </div>
+            <div class="row"><h3>{{section.subheader}}</h3></div>
             {% endif %}
-            <p>{{section.paragraph}}</p>
-            <p>{{section.list}}</p>
+            <p>{{section.paragraph | markdownify}}</p> 
         </div>
         {% endfor %}
 
