@@ -155,7 +155,7 @@ a.fas, .fa-arrow-circle-down {
   font-size: 5rem;
 }
 /*------------------------------Begin section styles-----------------------*/
-.section {
+div.section {
   margin: 0 auto;
 }
 div.section ul {
@@ -164,7 +164,7 @@ div.section ul {
 .front-statement {
   max-width: 1000px;
   padding: 100px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   background-color: $light-grey;
 }
@@ -470,7 +470,7 @@ iframe {
   .front-statement {
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 20px;
+    font-size: 25px;
   }
   .page-header {
     font-weight: bold;
