@@ -1,4 +1,5 @@
 poc:
+  - page-header: Therapy for POC
   - header: Providing A Space That Allows You To Express All Of Who You Are
     paragraph: |
       As a person of color (POC), you may have had an experience with a therapist that left you feeling misunderstood and even more marginalized. Perhaps you sought a space where you could express confusing emotions as they related to your race and/or intersecting identities, but you felt like the experience and its systems failed you.
@@ -73,6 +74,7 @@ poc:
     paragraph: |
       You deserve to take up space, have a voice, and heal from your experiences. If you’re ready to take the next step toward internal freedom and self-healing, we invite you to contact us to see how our BIPOC therapists can help.
 lgbtqia:
+  - page-header: LGBTQIA Therapy
   - header: A Therapist Should Accept Your LGBTQIA Identity As A Given
     paragraph: |
       As a person who identifies as lesbian, gay, bisexual, transgender, queer, intersex, asexual, aromantic, or polyamorous, maybe you seek a safe space to work through life’s struggles. Perhaps you have faced subtle or overt pushback in life from friends or family regarding your queer identity. You may even feel trapped as you worry, Who can I open up to about details of my life--will I be judged?
