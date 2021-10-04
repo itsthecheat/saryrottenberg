@@ -14,7 +14,7 @@ permalink: /lgbtqia-counseling/
         </div>
     </div>
     {% for section in site.data.specialty.lgbtqia %}
-    <div class="col-lg-8 col-md-12 col-sm-12 section">
+    <div class="col-lg-8 col-md-12 col-sm-12 section clearfix">
         {% if section.header %}
         <div class="row">
             <h2 class="page-header">{{section.header}}</h2>
@@ -27,5 +27,10 @@ permalink: /lgbtqia-counseling/
         <p>{{section.paragraph | markdownify}}</p>
     </div>
     {% endfor %}
-
+    <div style="text-align: center;" class="col-lg-8 col-md-12 col-sm-12 section">
+        <a href="{% link _pages/contact.html %}">
+            <button class="mdc-button mdc-button--raised schedule">Schedule a Free Consultation</button>
+        </a>
+        <h3>We offer both virtual and in-person appointments</h3>
+    </div>
 </div>

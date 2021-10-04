@@ -16,6 +16,28 @@ body {
   font-weight: 300;
   font-size: 19px;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+img.lgbtq {
+  padding:  20px;
+  float: left;
+  max-width: 400px;
+}
+img.lgbtq.pride, img.lgbtq.beard, img.lgbtq.couple2 {
+  float: right;
+}
+ img.poc {
+  padding:  20px;
+  float: left;
+  width: 400px;
+}
+img.poc.woman, img.poc.face, img.poc.bw { 
+  float: right;
+   padding:  20px;
+}
 .wrapper {
   position: relative;
   min-height: 100vh;
@@ -448,6 +470,14 @@ iframe {
 @media all and (max-width: 480px) {
   form {
     width: auto;
+  }
+  div.section {
+    display: grid;
+    justify-content: center;
+  }
+  img.poc, img.lgbtq {
+    float: none;
+    width: 350px;
   }
   #footer {
     font-size: 12px;
