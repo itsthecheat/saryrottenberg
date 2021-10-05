@@ -21,18 +21,13 @@ body {
   clear: both;
   display: table;
 }
-img.lgbtq {
-  padding:  20px;
-  float: left;
-  max-width: 400px;
-}
-img.lgbtq.pride, img.lgbtq.beard, img.lgbtq.couple2 {
-  float: right;
-}
- img.poc {
+img.lgbtq, img.poc {
   padding:  20px;
   float: left;
   width: 400px;
+}
+img.lgbtq.pride, img.lgbtq.beard, img.lgbtq.couple2 {
+  float: right;
 }
 img.poc.woman, img.poc.face, img.poc.bw { 
   float: right;
