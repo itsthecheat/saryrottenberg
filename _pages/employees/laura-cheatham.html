@@ -1,0 +1,31 @@
+---
+layout: default
+title: Laura Cheatham, MHC-LP
+permalink: /laura-cheatham/
+---
+<div class="container-fluid">
+    <div class="row header">
+        <div class="col-sm-12">
+            <h2 class="page-header">{{site.data.employees.laura.name}}</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 employee-headshot">
+            <img src="{{site.data.employees.laura.image}}" alt="{{site.data.employees.laura.name}}"
+                class="img-fluid headshot">
+            <div class="col caption-btn">
+                <a
+                    href="mailto:{{site.data.employees.laura.email}}?subject=Schedule%20Appointment:%20Mail%20From%20rottenbergtherapy.com"><button
+                        id="learn-more"
+                        class="my-ripple-button mdc-button mdc-card__action mdc-card__action--button">Schedule</button></a>
+            </div>
+        </div>
+        <div class="col-lg-8 col-md-8 col-sm-12 info">
+            <p>
+                {{site.data.employees.laura.bio | markdownify}}
+                <a href="{% link _pages/meet-our-team.html %}"><span class="back"><i
+                            class="fas fa-arrow-left"></i></span></a>
+            </p>
+        </div>
+    </div>
+</div>
