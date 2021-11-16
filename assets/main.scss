@@ -37,9 +37,6 @@ img.poc.woman, img.poc.face, img.poc.bw {
   position: relative;
   min-height: 100vh;
 }
-.container {
-  padding-bottom: 2.5rem;
-}
 .full-width-container {
   max-width: 100%;
 }
@@ -51,6 +48,9 @@ img.poc.woman, img.poc.face, img.poc.bw {
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: left;
+}
+.inclusive {
+  padding-bottom: 25px;
 }
 .page-header {
   font-family: $font-body;
@@ -346,9 +346,6 @@ span > a  {
 }
 div.mdc-card__media {
   background-position: top;
-}
-.alana {
-  background-image: url("/assets/img/headshots/Alana-1.jpg");
 }
 .sary {
   background-image: url("/assets/img/headshots/Sary-1.jpg")
