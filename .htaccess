@@ -5,6 +5,9 @@ RewriteBase /_site
 Options +FollowSymLinks
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteEngine ON
+RewriteCond %{HTTP_HOST} rottenbergtherapy\.com [NC]
+RewriteRule ^_site/rene-gonzalez/index\.html$ - [R=410,L]
 
 # Caching schema
 <FilesMatch "\.(jpg|png|css|js|webp|gif|html)$">

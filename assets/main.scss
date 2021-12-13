@@ -61,7 +61,7 @@ img.poc.woman, img.poc.face, img.poc.bw {
 .page-header-2 {
   padding: 10px 10px 10px 0;
   font-family: $font-body;
-  font-weight: bold;
+  text-align: center;
 }
 
 /*  ------------------------------ Begin Navigation Bar-------------------------------*/
@@ -173,10 +173,12 @@ a.fas, .fa-arrow-circle-down {
 /*------------------------------Begin section styles-----------------------*/
 div.section {
   margin: 0 auto;
+  padding: 25px 0 50px 0;
 }
 div.section ul {
   padding-left: 25px !important;
 }
+
 .front-statement {
   max-width: 1000px;
   padding: 100px;
@@ -396,7 +398,7 @@ div.mdc-card__media {
   border-color: transparent;
   color: white;
   background-color: $maroon;
-  margin: 5px;
+  margin: 25px;
   height: 50px;
 }
 .caption-btn {
