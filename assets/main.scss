@@ -331,6 +331,22 @@ a#section-two-arrow {
   padding-top: 100px;
   justify-content: center;
 }
+/* ------------------Begin Blog Styles-----------------------------------------*/
+div.blog-page-header {
+  padding-top: 100px;
+
+}
+div.mdc-card.blog-card {
+  padding: 20px;
+}
+a.blog-link {
+  padding: 25px 0 25px 0;
+  color: black;
+}
+a.blog-link:visited {
+  color: black;
+}
+
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 span > a  {
   color: $maroon;

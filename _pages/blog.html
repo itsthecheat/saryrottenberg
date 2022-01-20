@@ -4,15 +4,23 @@ title: Blog
 permalink: /blog/
 ---
 
-<h1>Latest Posts</h1>
+<div class="container">
+  <div class="row">
+    <div class="blog-page-header col-lg-12 col-md-12 col-sm-12">
+     <h1>Latest Posts</h1>
+    </div>
+      <ul>
+        {% for post in site.posts %}
+        <div class="mdc-card blog-card">
+          <h2>
+            <a class="blog-link" href="{{ post.url }}">{{ post.title }} 
+          </h2>
+            {{ post.date | date_to_string }}
+            <p>{{ post.excerpt | truncate: 250 }}</p>
+           </a>
+        </div>
+       {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <h2>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
-    <!-- <p>{{ post.excerpt }}</p> -->
-  </li>
-  {% endfor %}
-</ul>
