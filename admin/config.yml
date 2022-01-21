@@ -19,9 +19,9 @@ collections:
           name: 'author',
           widget: 'relation',
           collection: 'authors',
-          display_fields: [display_name],
-          search_fields: [display_name],
-          value_field: 'name',
+          displayFields: [display_name],
+          searchFields: [display_name],
+          valueField: 'name',
         }
       - { label: "Categories", name: "categories", widget: "string", required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
