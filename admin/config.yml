@@ -19,9 +19,9 @@ collections:
           name: 'author',
           widget: 'relation',
           collection: 'authors',
-          displayFields: [display_name],
-          searchFields: [display_name],
-          valueField: 'name',
+          display_fields: [display_name],
+          search_fields: [display_name],
+          value_field: 'name',
         }
       - { label: "Categories", name: "categories", widget: "string", required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -36,3 +36,4 @@ collections:
       - { label: 'Short Name', name: 'name', widget: 'string' }
       - { label: 'Display Name', name: 'display_name', widget: 'string' }
       - { label: 'Position', name: 'position', widget: 'string' }
+      - { label: "Body", name: "body", widget: "markdown" }
