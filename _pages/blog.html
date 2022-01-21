@@ -15,8 +15,8 @@ permalink: /blog/
           <h2>
             <a class="blog-link" href="{{ post.url }}">{{ post.title }} 
           </h2>
-            {{ post.author }}
-            {{ post.date | date_to_string }}
+           
+            {{ post.date | date_to_string }} by  {{ post.author }}
             <p>{{ post.excerpt | truncate: 250 }}</p>
            </a>
         </div>
