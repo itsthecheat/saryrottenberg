@@ -342,7 +342,7 @@ div.mdc-card.blog-card {
   padding: 20px;
 }
 .post-image {
-max-width: 800px;
+max-width: 500px;
 }
 a.blog-link {
   padding: 25px 0 25px 0;
@@ -353,6 +353,10 @@ a.blog-link:visited {
 }
 div.blog-content {
   padding: 50px;
+  font-family: $font-material;
+}
+.blog-link-subtitle {
+  font-family: $font-material;
 }
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 span > a  {
@@ -550,4 +554,7 @@ h4.page-header-2 a {
   .mdc-menu .mdc-menu-surface {
     left: -75px !important;
   }
+.post-image {
+  max-width: 150px;
+}
 }

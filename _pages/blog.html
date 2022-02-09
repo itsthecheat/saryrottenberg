@@ -14,9 +14,8 @@ permalink: /blog/
         <div class="mdc-card blog-card">
           <h2>
             <a class="blog-link" href="{{ post.url }}">{{ post.title }} 
-          </h2>
-           
-            {{ post.date | date_to_string }} by  {{ post.author }}
+          </h2>  
+            <h6 class="blog-link-subtitle">{{ post.date | date_to_string }} <br> by  {{ post.author }}</h6>
             <p>{{ post.excerpt | truncate: 250 }}</p>
            </a>
         </div>
