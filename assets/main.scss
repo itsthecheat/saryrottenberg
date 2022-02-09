@@ -342,7 +342,8 @@ div.mdc-card.blog-card {
   padding: 20px;
 }
 .post-image {
-max-width: 500px;
+max-width: 700px;
+padding: 20px;
 }
 a.blog-link {
   padding: 25px 0 25px 0;
@@ -555,6 +556,7 @@ h4.page-header-2 a {
     left: -75px !important;
   }
 .post-image {
-  max-width: 150px;
+  max-width: 400px;
+  margin: 0 auto;
 }
 }
