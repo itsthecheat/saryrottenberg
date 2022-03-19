@@ -6,7 +6,6 @@ author: Taylor Mefford, MHC-LP, CTP  They/He
 categories: Trauma
 image: /uploads/mike-labrum-fvl4b1gjpbk-unsplash.jpg
 ---
-<!--StartFragment-->
 
 Grief is a complex emotional response to something or someone you love being taken away. The pain of the loss can often feel overwhelming, coming in intense waves, and managing grief can be a real challenge. You may experience all kinds of painful and unexpected emotions —  shock and disbelief, sadness, guilt, anger, and fear are all emotions associated with grieving. The grieving process can also impact your physical health, and it can be challenging to eat, sleep, or focus. These reactions are all normal, and a more significant loss will often lead to more overwhelming grief. While we most typically think of the death of a loved one when talking about grief, there are many other losses that can cause you to grieve, including:
 
@@ -89,7 +88,3 @@ Talk to a therapist. In some cases, the grief you feel can be overwhelming to th
 
 
 Grief is one of the most challenging experiences that a person can go through. Even though it is painful and messy, the people around you can provide support as you try to understand grief and navigate your own unique way of coping. As your feelings emerge, processing them in a nonjudgmental way through taking care of yourself and finding meaningful activities will help you to become stronger and to find joy despite the loss.
-
-
-
-<!--EndFragment-->

@@ -103,6 +103,50 @@ nav.navbar {
   color: $maroon;
   &:hover {color:black;}
 }
+/* ---------------------------Blog---------------------------*/
+div.blog-page-header {
+  padding-top: 100px;
+}
+div.mdc-card.blog-card {
+  padding: 20px;
+}
+.post-image {
+  max-width: 700px;
+  padding: 20px;
+}
+h2 a.blog-link {
+  color: black;
+  transition: ease-in-out .2s;
+  &:hover {
+  color: grey;
+  text-decoration: none;
+  }
+}
+h2.blog-roll-header {
+  border-bottom: 3px solid black;
+}
+a.blog-link {
+  color: black;
+  padding-bottom: 25px;
+}
+a.blog-link:visited {
+  color: black;
+}
+div.blog-content {
+  padding: 50px;
+  font-family: $font-material;
+}
+.blog-container {
+  display: flex;
+  flex-direction: column;
+}
+.blog-roll-date {
+  font-weight: 400;
+}
+div .blog-roll {
+  flex-direction: row;
+}
+
 /* ---------------------------Hero Image and Overlay---------------------------*/
 .hero {
   position: relative;
@@ -334,31 +378,7 @@ a#section-two-arrow {
   padding-top: 100px;
   justify-content: center;
 }
-/* ------------------Begin Blog Styles-----------------------------------------*/
-div.blog-page-header {
-  padding-top: 100px;
-}
-div.mdc-card.blog-card {
-  padding: 20px;
-}
-.post-image {
-max-width: 700px;
-padding: 20px;
-}
-a.blog-link {
-  padding: 25px 0 25px 0;
-  color: black;
-}
-a.blog-link:visited {
-  color: black;
-}
-div.blog-content {
-  padding: 50px;
-  font-family: $font-material;
-}
-.blog-link-subtitle {
-  font-family: $font-material;
-}
+
 /* -------------------------Begin About Page Styles-------------------------------------------*/
 span > a  {
   color: $maroon;

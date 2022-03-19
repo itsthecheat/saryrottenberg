@@ -12,12 +12,11 @@ permalink: /blog/
       <ul>
         {% for post in site.posts %}
         <div class="mdc-card blog-card">
-          <h2>
-            <a class="blog-link" href="{{ post.url }}">{{ post.title }} 
+          <h2 class="blog-roll-header">
+            <a class="blog-link" href="{{ post.url }}">{{ post.title }}</a> 
           </h2>  
-            <h6 class="blog-link-subtitle">{{ post.date | date_to_string }} <br> by  {{ post.author }}</h6>
-            <p>{{ post.excerpt | truncate: 250 }}</p>
-           </a>
+            <p><span class="blog-roll-date">{{ post.date | date_to_string }}</span> by {{ post.author }}</p>
+            <a class="blog-link" href="{{ post.url }}">{{ post.excerpt | strip_newlines | truncate: 125 }}</a>
         </div>
        {% endfor %}
     </ul>
