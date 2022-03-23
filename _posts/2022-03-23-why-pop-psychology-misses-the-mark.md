@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why Pop Psychology Misses the Mark
-date: 2022-03-23T13:00:00.000Z
+date: 2022-03-23T02:55:55.309Z
 author: Laura Cheatham, LMHC She/Her
 image: /uploads/dave-pollot.png
 ---
