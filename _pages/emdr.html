@@ -2,10 +2,34 @@
 layout: default
 title: EMDR - Sary Rottenberg - West Brooklyn, NY
 description: >-
-    Are you in need of support that respects
-    your identity and doesn’t discount it? LGBTQIA therapy with Rottenberg Therapy can help you find your voice to heal.
+    EMDR therapy shifts how trauma is stored in the brain and reduces the disturbing emotions, sensations, symptoms, and beliefs associated with those experiences. Through the use of eye movements, EMDR therapy fundamentally changes the way the memory is stored.
 permalink: /emdr/
 ---
 
 <div class="container full-width-container">
+    <div class="row header">
+        <div class="col-12">
+            <h1><strong>{{site.data.specialty.emdr[0].page-header}}</strong></h1>
+        </div>
+    </div>
+    {% for section in site.data.specialty.emdr %}
+    <div class="col-lg-8 col-md-12 col-sm-12 section clearfix">
+        {% if section.header %}
+        <div class="row">
+            <h2 class="page-header">{{section.header}}</h2>
+        </div>
+        {% elsif section.subheader %}
+        <div class="row">
+            <h3>{{section.subheader}}</h3>
+        </div>
+        {% endif %}
+        <p>{{section.paragraph | markdownify}}</p>
+    </div>
+    {% endfor %}
+    <div style="text-align: center;" class="col-lg-8 col-md-12 col-sm-12 section">
+        <a href="{% link _pages/contact.html %}">
+            <button class="mdc-button mdc-button--raised schedule">Schedule a Free Consultation</button>
+        </a>
+        <h3>We offer both virtual and in-person appointments</h3>
+    </div>
 </div>
